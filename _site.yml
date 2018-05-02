@@ -5,5 +5,11 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About Me"
-      href: about.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Publications"
+      href: pubs.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "CV"
+      href: cv.pdf
