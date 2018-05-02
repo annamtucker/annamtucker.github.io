@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>this and that (mostly R and JAGS)</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Anna M. Tucker</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="cv.pdf">CV</a>
+</li>
+<li>
+  <a href="misc.html">Miscellaneous</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">this and that (mostly R and JAGS)</h1>
+
+</div>
+
+
+<p><strong>ditching the for loop once and for all</strong></p>
+<p>I converted to the <a href="https://www.tidyverse.org/">tidyverse</a> about a year ago, and fully embraced the pipe (<code>%&gt;%</code>) and intuitive functions as part of my workflow. However, I would still find myself falling back on use for loops for row-wise computations, like:</p>
+<pre class="r"><code>df = data.frame(a = runif(50, 10, 50),
+                b = rbinom(1, 1, 0.5))
+
+for(i in 1:nrow(df)){
+  df$c[i] = ifelse(df$b[i] == 1, df$a[i] + 10, df$a[i] - 10)
+}</code></pre>
+<p>I knoooow that for loops are slow and inefficient, but they are intuitive to write (if not always intuitive to read) and I have a deep lack of understanding of <code>apply</code>. I also know that the <code>purrr</code> package is designed specifically to eliminate the need for things like loops, but had never really figured out exactly how <code>map()</code> and its related functions work (<code>pmap</code>, <code>map2</code>, etc etc). HOWEVER, I think <a href="https://github.com/jennybc/row-oriented-workflows#readme">this excellent tutorial</a> from Jenny Bryan finally changed my mind. Turn the above into something more like:</p>
+<pre class="r"><code>require(tidyverse)
+
+fn = function(a, b){
+  ifelse(b == 1, a + 10, a - 10)
+}
+
+df %&gt;% 
+  mutate(cnew = map2_dbl(a, b, fn))</code></pre>
+<pre><code>##           a b        c     cnew
+## 1  15.11795 1 25.11795 25.11795
+## 2  48.75590 1 58.75590 58.75590
+## 3  31.69879 1 41.69879 41.69879
+## 4  28.76059 1 38.76059 38.76059
+## 5  34.44174 1 44.44174 44.44174
+## 6  43.47425 1 53.47425 53.47425
+## 7  36.10730 1 46.10730 46.10730
+## 8  12.37723 1 22.37723 22.37723
+## 9  44.42725 1 54.42725 54.42725
+## 10 19.77535 1 29.77535 29.77535
+## 11 28.09034 1 38.09034 38.09034
+## 12 37.79773 1 47.79773 47.79773
+## 13 15.04777 1 25.04777 25.04777
+## 14 46.00662 1 56.00662 56.00662
+## 15 47.86753 1 57.86753 57.86753
+## 16 23.91624 1 33.91624 33.91624
+## 17 11.53171 1 21.53171 21.53171
+## 18 34.86567 1 44.86567 44.86567
+## 19 23.04029 1 33.04029 33.04029
+## 20 44.62014 1 54.62014 54.62014
+## 21 21.63216 1 31.63216 31.63216
+## 22 40.96630 1 50.96630 50.96630
+## 23 33.78350 1 43.78350 43.78350
+## 24 40.39490 1 50.39490 50.39490
+## 25 14.21008 1 24.21008 24.21008
+## 26 19.49115 1 29.49115 29.49115
+## 27 23.61619 1 33.61619 33.61619
+## 28 18.16605 1 28.16605 28.16605
+## 29 46.43400 1 56.43400 56.43400
+## 30 16.01747 1 26.01747 26.01747
+## 31 33.47741 1 43.47741 43.47741
+## 32 15.39127 1 25.39127 25.39127
+## 33 29.33149 1 39.33149 39.33149
+## 34 41.40005 1 51.40005 51.40005
+## 35 18.03126 1 28.03126 28.03126
+## 36 47.37472 1 57.37472 57.37472
+## 37 10.58391 1 20.58391 20.58391
+## 38 27.47812 1 37.47812 37.47812
+## 39 10.39037 1 20.39037 20.39037
+## 40 44.38730 1 54.38730 54.38730
+## 41 10.35653 1 20.35653 20.35653
+## 42 42.94035 1 52.94035 52.94035
+## 43 44.08364 1 54.08364 54.08364
+## 44 44.42106 1 54.42106 54.42106
+## 45 36.20598 1 46.20598 46.20598
+## 46 46.30444 1 56.30444 56.30444
+## 47 35.91891 1 45.91891 45.91891
+## 48 33.70032 1 43.70032 43.70032
+## 49 20.75274 1 30.75274 30.75274
+## 50 41.83763 1 51.83763 51.83763</code></pre>
+<p>It didn’t really make a difference here, but this has substanstially sped up some of my simulations and also makes the code much more readable, in my opinion.</p>
+<p>Check out the webinar. Highly recommended!</p>
+<hr />
+<p><strong>the ultimate way to run JAGS</strong></p>
+<p>If you’ve worked with JAGS you know that it can sometimes be finicky about initializing. A few years ago I started using this little bit of code to force JAGS to keep trying to initialize. Not the most elegant way to go about it, but sometimes it’s what needs to be done.</p>
+<pre class="r"><code>success = FALSE
+while(!success){
+    s &lt;- try(mod &lt;- jags(dat, inits, params, model.file,
+                             n.chains = nc, n.iter = ni, n.adapt = na,
+                             n.burnin = nb, n.thin = nt, parallel = T))
+    success &lt;- class(s)!=&#39;try-error&#39;
+}</code></pre>
+<p>Essentially this just keeps retrying the <code>jags()</code> call until it sticks. <em>Note: be sure to check initial values, data, and model first before trying this–many times there is a real reason JAGS doesn’t like what you’re trying to do!</em></p>
+<p>I also like to automatically check for convergence and update if needed, which you can do by adding:</p>
+<pre class="r"><code>while(length(which(reknmod$summary[,8] &gt; 1.1)) &gt; 0){
+    mod = update(mod, n.iter = 15000, parameters.to.save = params)
+}</code></pre>
+<p>I often run models over the weekend, or on a lab machine that’s down the hall. In these cases, I like R to send me little updates so I can obsessively worry about how my model is doing instead of enjoying some free time or doing something else productive. There are a lot of options out there for this, but the one that works great for me is <a href="https://pushover.net/">Pushover</a>. You create an account online and register your device, and then use the <code>pushoverr</code> package to send push notifications from R to your phone. It’s amazing. Adding that to the above gives us:</p>
+<pre class="r"><code>success = FALSE
+while(!success){
+    s &lt;- try(mod &lt;- jags(dat, inits, params, model.file,
+                             n.chains = nc, n.iter = ni, n.adapt = na,
+                             n.burnin = nb, n.thin = nt, parallel = T))
+    success &lt;- class(s)!=&#39;try-error&#39;
+    pushover(&quot;error initializing, rerunning&quot;)
+}
+
+while(length(which(mod$summary[,8] &gt; 1.1)) &gt; 0){
+    pushover(&quot;not converged, updating&quot;)
+    mod = update(mod, n.iter = 15000, parameters.to.save = params)
+ }
+
+pushover(&quot;model finished!&quot;)</code></pre>
+<p>I’ve also started to care more about benchmarking my models and keeping track of how long they took. Again, there are a bunch of ways to do this, but I like the <code>tictoc</code> package for its simplicity. You just use <code>tic()</code> right before the code you want to time and <code>toc()</code> after. I also added a line of code to save the model once its finished, just in case I can’t get to the computer right away. So, putting it all together:</p>
+<pre class="r"><code>require(jagsUI)
+require(tictoc)
+require(pushoverr)
+
+success = FALSE
+while(!success){
+  s &lt;- try(mod &lt;- jags(dat, inits, params, model.file,
+                           n.chains = nc, n.iter = ni, n.adapt = na,
+                           n.burnin = nb, n.thin = nt, parallel = T))
+  success &lt;- class(s)!=&#39;try-error&#39;
+  pushover(&quot;error initializing, rerunning&quot;)
+}
+
+while(length(which(mod$summary[,8] &gt; 1.1)) &gt; 0){
+  pushover(&quot;not converged, updating&quot;)
+  mod = update(mod, n.iter = 15000, parameters.to.save = params)
+}
+
+saveRDS(mod, file = &quot;filename.rds&quot;)
+
+pushover(paste(&quot;finished!&quot;, unlist(tic.log())))</code></pre>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

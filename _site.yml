@@ -13,3 +13,10 @@ navbar:
       href: teaching.html
     - text: "CV"
       href: cv.pdf
+    - text: "Miscellaneous"
+      href: misc.html
+  
+output:
+  html_document:
+    theme: sandstone
+    css: style.css

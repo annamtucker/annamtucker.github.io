@@ -1,0 +1,23 @@
+---
+title: "Teaching"
+---
+
+**Wildlife Population Science**
+
+In Spring 2018 I taught the lab section for Wildlife Population Science at Auburn Univeristy. This course combined basics of population ecology and dynamics with estimation of population parameters, with an emphasis on management and conservation applications. I had fun creating [Shiny](https://shiny.rstudio.com/) apps to help students explore population models and create stochastic projections for population viability analyses. Below are links to the apps and some other material.
+
+* [Math refresher for population ecology](teaching/math_refresher.pdf)
+* [Lotka-Volterra predator-prey dynamics](teaching/pred_prey.html)
+* [Stochastic demographic projections for PVA](teaching/pva_app.html)
+
+---
+
+**Ornithology**
+
+I also love teaching people about birds and birding. In addition to teaching Ornithology Lab both at Auburn University and Virginia Commonwealth University, I've also given guest lectures and helped with local birding events, including:
+
+* [National Audubon Society Hog Island Family Camp](http://hogisland.audubon.org/family-camp-name-change)
+* Alabama Master Naturalist Program ([intro to birding presentation](teaching/birding.pdf))
+* Alabama Extension BioBlitz
+* [Osher Lifelong Learning Institute](http://www.olliatauburn.org/)
+

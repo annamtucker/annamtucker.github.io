@@ -1,0 +1,109 @@
+---
+title: "this and that (mostly R and JAGS)"
+---
+
+**ditching the for loop once and for all**
+
+I converted to the [tidyverse](https://www.tidyverse.org/) about a year ago, and fully embraced the pipe (`%>%`) and intuitive functions as part of my workflow. However, I would still find myself falling back on use for loops for row-wise computations, like:
+
+```{r}
+df = data.frame(a = runif(50, 10, 50),
+                b = rbinom(1, 1, 0.5))
+
+for(i in 1:nrow(df)){
+  df$c[i] = ifelse(df$b[i] == 1, df$a[i] + 10, df$a[i] - 10)
+}
+```
+
+I knoooow that for loops are slow and inefficient, but they are intuitive to write (if not always intuitive to read) and I have a deep lack of understanding of `apply`. I also know that the `purrr` package is designed specifically to eliminate the need for things like loops, but had never really figured out exactly how `map()` and its related functions work (`pmap`, `map2`, etc etc). HOWEVER, I think [this excellent tutorial](https://github.com/jennybc/row-oriented-workflows#readme) from Jenny Bryan finally changed my mind. Turn the above into something more like:
+
+```{r}
+require(tidyverse)
+
+fn = function(a, b){
+  ifelse(b == 1, a + 10, a - 10)
+}
+
+df %>% 
+  mutate(cnew = map2_dbl(a, b, fn))
+```
+
+It didn't really make a difference here, but this has substanstially sped up some of my simulations and also makes the code much more readable, in my opinion.
+
+Check out the webinar. Highly recommended! 
+  
+---
+  
+**the ultimate way to run JAGS**
+
+If you've worked with JAGS you know that it can sometimes be finicky about initializing. A few years ago I started using this little bit of code to force JAGS to keep trying to initialize. Not the most elegant way to go about it, but sometimes it's what needs to be done.
+
+```{r, eval = F}
+success = FALSE
+while(!success){
+    s <- try(mod <- jags(dat, inits, params, model.file,
+                             n.chains = nc, n.iter = ni, n.adapt = na,
+                             n.burnin = nb, n.thin = nt, parallel = T))
+    success <- class(s)!='try-error'
+}
+```
+
+Essentially this just keeps retrying the `jags()` call until it sticks. _Note: be sure to check initial values, data, and model first before trying this--many times there is a real reason JAGS doesn't like what you're trying to do!_
+
+I also like to automatically check for convergence and update if needed, which you can do by adding: 
+
+```{r, eval = F}
+while(length(which(reknmod$summary[,8] > 1.1)) > 0){
+    mod = update(mod, n.iter = 15000, parameters.to.save = params)
+}
+```
+
+I often run models over the weekend, or on a lab machine that's down the hall. In these cases, I like R to send me little updates so I can obsessively worry about how my model is doing instead of enjoying some free time or doing something else productive. There are a lot of options out there for this, but the one that works great for me is [Pushover](https://pushover.net/). You create an account online and register your device, and then use the `pushoverr` package to send push notifications from R to your phone. It's amazing. Adding that to the above gives us:
+
+```{r, eval = F}
+success = FALSE
+while(!success){
+    s <- try(mod <- jags(dat, inits, params, model.file,
+                             n.chains = nc, n.iter = ni, n.adapt = na,
+                             n.burnin = nb, n.thin = nt, parallel = T))
+    success <- class(s)!='try-error'
+    pushover("error initializing, rerunning")
+}
+
+while(length(which(mod$summary[,8] > 1.1)) > 0){
+    pushover("not converged, updating")
+    mod = update(mod, n.iter = 15000, parameters.to.save = params)
+ }
+
+pushover("model finished!")
+```
+
+I've also started to care more about benchmarking my models and keeping track of how long they took. Again, there are a bunch of ways to do this, but I like the `tictoc` package for its simplicity. You just use `tic()` right before the code you want to time and `toc()` after. I also added a line of code to save the model once its finished, just in case I can't get to the computer right away. So, putting it all together:
+
+```{r, eval = F}
+require(jagsUI)
+require(tictoc)
+require(pushoverr)
+
+success = FALSE
+while(!success){
+  s <- try(mod <- jags(dat, inits, params, model.file,
+                           n.chains = nc, n.iter = ni, n.adapt = na,
+                           n.burnin = nb, n.thin = nt, parallel = T))
+  success <- class(s)!='try-error'
+  pushover("error initializing, rerunning")
+}
+
+while(length(which(mod$summary[,8] > 1.1)) > 0){
+  pushover("not converged, updating")
+  mod = update(mod, n.iter = 15000, parameters.to.save = params)
+}
+
+saveRDS(mod, file = "filename.rds")
+
+pushover(paste("finished!", unlist(tic.log())))
+```
+
+
+
+
