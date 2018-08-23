@@ -1,11 +1,41 @@
 ---
-title: "Research projects"
+output:  
+  html_document:  
+    toc: true  
+    toc_float: true 
 ---
 
-![](files/marsh_bino.jpg)
+```{r, echo = F, out.width = "100%"}
+library(knitr)
+library(png)
+img.path = "files/marsh_bino.jpg"
+include_graphics(img.path)
+```
+
+  
+<center>
+![](files/marsh_bino.jpg)){
+width=100% }
+</center>
+
 ---
 
-**Foraging strategy influences sensitivity to changing stopover conditions**
+## Delaware Bay shorebirds  
+  
+![](files/net_covering_2.jpg)
+  
+The [Delaware Shorebird Project](http://www.dnrec.delaware.gov/fw/shorebirds/Pages/default.aspx) is a collaborative monitoring effort that began in the late 1990s as a response to drastic declines in shorebird numbers in Delaware Bay during spring migration. Every year volunteers in Delaware and New Jersey monitor beaches in the region to count, band, and re-sight shorebirds. This amazing effort has led to an invaluable long-term dataset on the status of shorebirds in the Atlantic Flyway.  
+
+---
+
+  
+### Individual misidentification  
+some text
+ 
+---
+   
+   
+### Variation in timing and rate of mass gain  
 
 Many shorebird species use Delaware Bay during spring migration. Red knot have received the most attention because they've experienced drastic population declines, which has been linked to declines in horseshoe crabs. Specializing on a particular, abundant prey item is a good strategy for long-distance migrants as long as that prey item is reliably abundant. When stopover conditions are more unpredictable, it might be a better strategy to be a generalist forager like the ruddy turnstone. I'm comparing capture weights to see if red knot and ruddy turnstone differ in their sensitivity to changing annual food availability, measured as the annual variation in timing and rate of mass gain.
 
@@ -15,7 +45,7 @@ I recently presented on this work at the 2018 AOS Annual Meeting and won an [AOS
 
 ---
 
-**Using network theory to understand bird movements**
+### Using network models to understand bird movements  
 
 Individuals are time- and energy- limited during migration and must use stopover sites efficiently. In Delaware Bay, horseshoe crab eggs are the key prey item for migratory shorebirds, but availability of eggs varies spatially and temporally. Do bird movements track horseshoe crab spawning abundance? 
 
@@ -27,20 +57,20 @@ I presented a [poster](files/euring_poster.pdf) on this work at the Euring Analy
 
 ---
 
-**Delaware Bay shorebird monitoring**
-
-The Delaware Shorebird Project is a collaborative monitoring effort that began in the late 1990s as a response to drastic declines in shorebird numbers in Delaware Bay during spring migration. Every year volunteers in Delaware and New Jersey monitor beaches in the region to count, band, and re-sight shorebirds. This amazing effort has led to an invaluable long-term dataset on the status of shorebirds in the Atlantic Flyway.  
-
-![](files/net_covering_2.jpg)
-
-[More information about the Delaware Shorebird Project.](http://www.dnrec.delaware.gov/fw/shorebirds/Pages/default.aspx)
+  
+### Integrated population models and full annual cycle dynamics   
+  
+some text
 
 ---
 
-**Breeding ecology of prothonotary warblers**
+## Prothonotary warbler breeding ecology
 
-During my Masters I investigating the occurrence and consequences of conspecific brood parasitism in a box-nesting population of prothontary warblers. I also traveled to Panama to help lead a tropical ecology field course for undergraduates, where we banded prothonotary warblers in the mangroves. Since I've left, the team at VCU has partnered with others working with the species to deployed geolocators and estimate migratory connectivity for this species. More info about the cool work they're doing [here](ricerivers.vcu.edu/research/prothonotary-warblers/)
+For my Masters thesis I investigated the occurrence and consequences of conspecific brood parasitism in a box-nesting population of prothontary warblers. I also traveled to Panama to help lead a tropical ecology field course for undergraduates, where we banded prothonotary warblers in the mangroves. Since I've left, the team at VCU has partnered with others working with the species to deployed geolocators and estimate migratory connectivity for this species. More info about the cool work they're doing [here](ricerivers.vcu.edu/research/prothonotary-warblers/)
 
-![](files/prow_male.jpg)   
-![](files/prow_nestling_banded.jpg)
+```{r, echo = TRUE, out.width="60%"}
+myimages<-c("files/prow_male.jpg", "files/prow_nestling_banded.jpg")
+include_graphics(myimages)
+```
 
+I wrote a blog post about this work for the BOU Blog--[check it out!](https://www.bou.org.uk/blog-tucker_prothonotary-warblers/)
