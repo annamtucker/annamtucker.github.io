@@ -6,7 +6,7 @@ img.path = "files/misp_pano.jpg"
 include_graphics(img.path)
 ```
 
-_Contact me_
+### Contact me
 
 Current address: School of Forestry and Wildlife Sciences, Auburn University
 

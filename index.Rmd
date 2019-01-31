@@ -2,7 +2,7 @@
 title: "Anna M. Tucker"
 ---
 
-```{r, echo = F, out.width = "30%", fig.align='left'}
+```{r, echo = F, out.width = "20%", fig.align='center'}
 library(knitr)
 library(png)
 img.path = "files/kayak_selfie.jpg"

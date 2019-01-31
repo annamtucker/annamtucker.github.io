@@ -1,7 +1,8 @@
-__Publications__  
-  
-  
-Tucker, A.M., C.P. McGowan, Robert A. Robinson, Jacquie A. Clark, James E. Lyons, Audrey DeRose-Wilson, Richard du Feu, Graham E. Austin, Philip W. Atkinson, and Nigel A. Clark. *In review.* Occurrence and consequences of individual misidentification in mark-recapture studies. The Condor.  
+
+### Publications
+  \
+  \
+Tucker, A.M., C.P. McGowan, R.A. Robinson, J.A. Clark, J.E. Lyons, A.L. DeRose-Wilson, R. du Feu, G.E. Austin, P.W. Atkinson, and N.A. Clark. *In press*. Effects of individual misidentification on estimates of survival in long-term mark-resight studies. The Condor.\
   
 Weaver, R.J., E.S.A. Santos, A.M. Tucker, A.E. Wilson, and G.E. Hill. 2018. Carotenoid metabolism strengthens the link between feather coloration and individual quality. Nature Communications: 9, 1. doi: 10.1038/s41467-017-02649-z [pdf](files/Weaver-etal_2018.pdf)
   
