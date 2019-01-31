@@ -1,18 +1,24 @@
 ---
-title: "Anna M. Tucker"
+title: ""
 ---
+<br><br><br><br>
 
-```{r, echo = F, out.width = "20%", fig.align='center'}
-library(knitr)
-library(png)
-img.path = "files/kayak_selfie.jpg"
-include_graphics(img.path)
-```
-
+<div class = "row">
+  
+<div class = "col-md-4">
+![](files/kayak_selfie.jpg){width=100%} 
+</div>
+  
+<div class = "col-md-8">
 I'm a PhD candidate at Auburn University working with [Conor McGowan](http://www.auburn.edu/~cpm0014/) in the USGS Alabama Fish and Wildlife Cooperative Research Unit. I'm using a long-term mark-recapture dataset from Delaware Bay to understand how shorebirds respond to changing stopover conditions, and how stopover conditions can influence population dynamics and stability. 
 
 I'm broadly interested in  understanding of the full annual cycle dynamics of migratory species using quantitative tools that help us predict population responses to changing environmental conditions. I'll be graduating in May 2019 and am seeking a postdoc position that combine full life cycle ecology, quantitative methods, and applications to management and conservation issues.  
 
 I completed my Masters degree with [Lesley Bulluck](https://rampages.us/bullucklab/) at VCU, working on questions about the breeding ecology of a box-nesting population of prothonotary warblers. See my Research page for more info about past, present, and future projects!
+
+</div>
+  
+
+</div>
 
 

@@ -1,6 +1,9 @@
 ---
-title: "this and that (mostly R and JAGS)"
+title: ""
 ---
+<br><br>
+
+### Miscellaneous and potentially useful 
 
 **ditching the for loop once and for all**
 

@@ -4,48 +4,63 @@ output:
     toc: true  
     toc_float: true 
 ---
+<br><br><br>
 
-```{r, echo = F, out.width = "100%", fig.height = 6}
-library(knitr)
-library(png)
-img.path = "files/marsh_bino.jpg"
-include_graphics(img.path)
-```
+## Research projects  
 
+<br><br>
   
 <center>
-![](files/marsh_bino.jpg)){
-width=100% }
+<img src="files/marsh_bino.jpg" width="600">
 </center>
+<br><br>
 
 ---
 
-## Delaware Bay shorebirds  
+### Delaware Bay shorebirds  
   
 ![](files/net_covering_2.jpg)
   
 The [Delaware Shorebird Project](http://www.dnrec.delaware.gov/fw/shorebirds/Pages/default.aspx) is a collaborative monitoring effort that began in the late 1990s as a response to drastic declines in shorebird numbers in Delaware Bay during spring migration. Every year volunteers in Delaware and New Jersey monitor beaches in the region to count, band, and re-sight shorebirds. This amazing effort has led to an invaluable long-term dataset on the status of shorebirds in the Atlantic Flyway.  
 
 ---
-
+<div class = "row">
   
-### Individual misidentification  
-some text
+<div class = "col-md-8">
+#### Individual misidentification  
+  
+Most of the analyses for my PhD use mark-resight data of shorebirds marked with individually unique, field-readble flags like the one on the left. Many field house conversations about how easily flag reading errors could occur in the field or during data entry, we decided to investigate how frequently they occurred in our data and what effect that might have on survival estimates. We found that when misreads occur, they can cause apparent negative trends in survival even when in reality survival has been constant over time. The paper on that work is out this month in The Condor, so stay tuned! 
+
+</div>
+
+<div class = "col-md-4">
+![](files/flagged_rekn.jpg) 
+</div>
+</div>
+
  
 ---
    
-   
-### Variation in timing and rate of mass gain  
+
+<div class = "row">
+  
+<div class = "col-md-4">
+![](files/banding_rutu.jpg) 
+</div>
+
+<div class = "col-md-8">
+
+#### Variation in timing and rate of mass gain  
 
 Many shorebird species use Delaware Bay during spring migration. Red knot have received the most attention because they've experienced drastic population declines, which has been linked to declines in horseshoe crabs. Specializing on a particular, abundant prey item is a good strategy for long-distance migrants as long as that prey item is reliably abundant. When stopover conditions are more unpredictable, it might be a better strategy to be a generalist forager like the ruddy turnstone. I'm comparing capture weights to see if red knot and ruddy turnstone differ in their sensitivity to changing annual food availability, measured as the annual variation in timing and rate of mass gain.
 
-![](files/banding_rutu.jpg)
 
 I recently presented on this work at the 2018 AOS Annual Meeting and won an [AOS Council Student Presentation Award](http://www.americanornithology.org/content/2018-aos-student-presentation-award-winners)!
-
+</div>
+</div>
 ---
 
-### Using network models to understand bird movements  
+#### Using network models to understand bird movements  
 
 Individuals are time- and energy- limited during migration and must use stopover sites efficiently. In Delaware Bay, horseshoe crab eggs are the key prey item for migratory shorebirds, but availability of eggs varies spatially and temporally. Do bird movements track horseshoe crab spawning abundance? 
 
@@ -56,21 +71,22 @@ I'm working on evaluating movement patterns using resightings of flagged individ
 I presented a [poster](files/euring_poster.pdf) on this work at the Euring Analytical Meeting and Workshop in Barcelona, Spain and won the Best Student Poster award. (*this poster presents work in progress, not for reproduction or citation*)
 
 ---
-
   
-### Integrated population models and full annual cycle dynamics   
   
-some text
-
----
-
-## Prothonotary warbler breeding ecology
+### Prothonotary warbler breeding ecology
 
 For my Masters thesis I investigated the occurrence and consequences of conspecific brood parasitism in a box-nesting population of prothontary warblers. I also traveled to Panama to help lead a tropical ecology field course for undergraduates, where we banded prothonotary warblers in the mangroves. Since I've left, the team at VCU has partnered with others working with the species to deployed geolocators and estimate migratory connectivity for this species. More info about the cool work they're doing [here](ricerivers.vcu.edu/research/prothonotary-warblers/)
 
-```{r, echo = TRUE, out.width="60%"}
-myimages<-c("files/prow_male.jpg", "files/prow_nestling_banded.jpg")
-include_graphics(myimages)
-```
+<div class = "row">
+  
+<div class = "col-md-6">
+![](files/prow_male.jpg)
+</div>
+
+<div class = "col-md-6">
+![](files/prow_nestling_banded.jpg)
+</div>
+</div>
+
 
 I wrote a blog post about this work for the BOU Blog--[check it out!](https://www.bou.org.uk/blog-tucker_prothonotary-warblers/)
