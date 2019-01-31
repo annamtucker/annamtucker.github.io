@@ -1,10 +1,14 @@
+<br><br><br>
 
 ### Teaching
-  \
-  \
+
+<br><br>
+
 **Quantitative Techniques for Species Status Assessments**  
   
 I helped develop a two-day crash course in wildlife population modeling, statistics, and stochastic projections for USFWS Biologists working on [Species Status Assessments](https://www.fws.gov/endangered/improving_esa/ssa.html). All course materials, including lectures, activites, interactive web apps, and other useful links can be found at our website: [ssa200.auburn.edu](ssa200.auburn.edu).\
+  
+---
   
 **Wildlife Population Science**
 
