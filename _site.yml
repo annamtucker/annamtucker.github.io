@@ -13,8 +13,8 @@ navbar:
       href: teaching.html
     - text: "CV"
       href: files/tucker-cv.pdf
-    - text: "Miscellaneous"
-      href: misc.html
+#    - text: "Miscellaneous"
+#      href: misc.html
   
 output:
   html_document:

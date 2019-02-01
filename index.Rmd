@@ -1,12 +1,13 @@
 ---
 title: ""
 ---
+
 <br><br><br><br>
 
 <div class = "row">
   
 <div class = "col-md-4">
-![](files/kayak_selfie.jpg){width=100%} 
+![](files/kayak_selfie.jpg){width=80%} 
 </div>
   
 <div class = "col-md-8">
@@ -16,9 +17,32 @@ I'm broadly interested in  understanding of the full annual cycle dynamics of mi
 
 I completed my Masters degree with [Lesley Bulluck](https://rampages.us/bullucklab/) at VCU, working on questions about the breeding ecology of a box-nesting population of prothonotary warblers. See my Research page for more info about past, present, and future projects!
 
+---
+amt0046 at auburn.edu
+---
+</div>
+</div>
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+```
+
+
+<div class = "row">
+  
+<div class = "col-md-3">
+<a href="https://scholar.google.com/citations?user=S7YLY64AAAAJ&hl=en"> <i class="fa fa-graduation-cap"></i></a>
 </div>
   
-
+<div class = "col-md-3">
+<a href="https://github.com/annamtucker"> <i class="fa fa-github"></i></a>
 </div>
 
-
+<div class = "col-md-3">
+<a href="https://twitter.com/annamtucker_"> <i class="fa fa-twitter"></i></a>
+</div>
+  
+<div class = "col-md-3">
+<a href="mailto:amt0046@auburn.edu"> <i class="fa fa-envelope"></i></a>
+</div>
+</div>
