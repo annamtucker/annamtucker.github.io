@@ -97,6 +97,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -111,7 +114,6 @@ body {
   padding-top: 66px;
   margin-top: -66px;
 }
-
 .section h2 {
   padding-top: 66px;
   margin-top: -66px;
@@ -131,6 +133,43 @@ body {
 .section h6 {
   padding-top: 66px;
   margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -152,18 +191,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -217,7 +315,7 @@ $(document).ready(function () {
 <h3>Publications</h3>
 <p><br><br> <strong>Tucker, A.M.</strong>, C.P. McGowan, M. Catalano, A.L. DeRose-Wilson, R.A. Robinson, and J. Zimmerman. Foraging ecology mediates response to ecological mismatch during migratory stopover. <em>In review - Ecosphere</em></p>
 <p>Robinson, R.A. J.A. Clark, N.A. Clark, A.L. DeRose-Wilson, A. Dey, K. Kalasz, L.J. Niles, H. P. Sitters, <strong>A.M. Tucker</strong>, and C.D.T. Minton. Mass gain strategies of a spring-staging long distance migrant shorebird, the Red Knot Calidris canutus. <em>In review - Wader Study Group Bulletin</em></p>
-<p><strong>Tucker, A.M.</strong>, C.P. McGowan, R.A. Robinson, J.A. Clark, J.E. Lyons, A.L. DeRose-Wilson, R. du Feu, G.E. Austin, P.W. Atkinson, and N.A. Clark. Effects of individual misidentification on estimates of survival in long-term markâ€“resight studies. The Condor. <em>In press - Feb 2019</em></p>
+<p><strong>Tucker, A.M.</strong>, C.P. McGowan, R.A. Robinson, J.A. Clark, J.E. Lyons, A.L. DeRose-Wilson, R. du Feu, G.E. Austin, P.W. Atkinson, and N.A. Clark. Effects of individual misidentification on estimates of survival in long-term markâ€“resight studies. The Condor: Ornithological Applications, 121: 1-13. doi: 10.1093/condor/duy017 <a href="files/Tucker%20et%20al._2019.pdf">pdf</a></p>
 <p>Weaver, R.J., E.S.A. Santos, <strong>A.M. Tucker</strong>, A.E. Wilson, and G.E. Hill. 2018. Carotenoid metabolism strengthens the link between feather coloration and individual quality. Nature Communications: 9, 1. doi: 10.1038/s41467-017-02649-z <a href="files/Weaver-etal_2018.pdf">pdf</a></p>
 <p><strong>Tucker, A.M.</strong> and L.P. Bulluck. 2017. No evidence for an effect of conspecific brood parasitism on annual survival female Prothonotary Warbler. Ibis. doi: 10.1111/ibi.12538 <a href="files/Tucker-Bulluck_2017.pdf">pdf</a></p>
 <p><strong>Tucker, A.M.</strong>, R.J. Dyer, S.K. Huber, and L.P. Bulluck. 2016. Opportunistic conspecific brood parasitism in a box-nesting population of Prothonotary Warblers (Protonotaria citrea). The Auk: 133, 2, 298-307. doi: 10.1642/AUK-15-161.1 <a href="files/Tucker-etal_2016.pdf">pdf</a></p>
