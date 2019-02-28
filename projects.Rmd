@@ -21,27 +21,33 @@ output:
   
 ![](files/net_covering_2.jpg)
   
+  
+  
 The [Delaware Shorebird Project](http://www.dnrec.delaware.gov/fw/shorebirds/Pages/default.aspx) is a collaborative monitoring effort that began in the late 1990s as a response to drastic declines in shorebird numbers in Delaware Bay during spring migration. Every year volunteers in Delaware and New Jersey monitor beaches in the region to count, band, and re-sight shorebirds. This amazing effort has led to an invaluable long-term dataset on the status of shorebirds in the Atlantic Flyway.  
 
 ---
+  
 <div class = "row">
   
-<div class = "col-md-8">
+<div class = "col-md-6">
 #### Individual misidentification  
   
-Most of the analyses for my PhD use mark-resight data of shorebirds marked with individually unique, field-readble flags like the one on the left. Many field house conversations about how easily flag reading errors could occur in the field or during data entry, we decided to investigate how frequently they occurred in our data and what effect that might have on survival estimates. We found that when misreads occur, they can cause apparent negative trends in survival even when in reality survival has been constant over time. The paper on that work is out this month in The Condor, so stay tuned! 
-
+Most of the analyses for my PhD use mark-resight data of shorebirds marked with individually unique, field-readble flags like the one on the left. Many field house conversations about how easily flag reading errors could occur in the field or during data entry, we decided to investigate how frequently they occurred in our data and what effect that might have on survival estimates. We found that when misreads occur, they can cause apparent negative trends in survival even when in reality survival has been constant over time.   
+  
+Our paper on this work is published in The Condor - read the [pdf](files/Tucker et al._2019.pdf) or check out the [blog post](https://amornithnews.org/2019/02/26/author-blog-resighting-errors-are-easy-to-make-and-hard-to-measure/) I wrote for the American Ornithological Society's Author Blog. 
+  
+  
+  
 </div>
 
-<div class = "col-md-4">
+<div class = "col-md-6">
 ![](files/flagged_rekn.jpg) 
 </div>
 </div>
 
  
----
-   
-
+---  
+  
 <div class = "row">
   
 <div class = "col-md-4">
@@ -75,8 +81,10 @@ I presented a [poster](files/euring_poster.pdf) on this work at the Euring Analy
   
 ### Prothonotary warbler breeding ecology
 
-For my Masters thesis I investigated the occurrence and consequences of conspecific brood parasitism in a box-nesting population of prothontary warblers. I also traveled to Panama to help lead a tropical ecology field course for undergraduates, where we banded prothonotary warblers in the mangroves. Since I've left, the team at VCU has partnered with others working with the species to deployed geolocators and estimate migratory connectivity for this species. More info about the cool work they're doing [here](ricerivers.vcu.edu/research/prothonotary-warblers/)
-
+For my Masters thesis I investigated the occurrence and consequences of conspecific brood parasitism in a box-nesting population of prothontary warblers. I also traveled to Panama to help lead a tropical ecology field course for undergraduates, where we banded prothonotary warblers in the mangroves. Since I've left, the team at VCU has partnered with others working with the species to deployed geolocators and estimate migratory connectivity for this species. More info about the cool work they're doing [here](ricerivers.vcu.edu/research/prothonotary-warblers/)  
+  
+I wrote a blog post about this work for the BOU Blog--[check it out!](https://www.bou.org.uk/blog-tucker_prothonotary-warblers/)
+  
 <div class = "row">
   
 <div class = "col-md-6">
@@ -88,5 +96,3 @@ For my Masters thesis I investigated the occurrence and consequences of conspeci
 </div>
 </div>
 
-
-I wrote a blog post about this work for the BOU Blog--[check it out!](https://www.bou.org.uk/blog-tucker_prothonotary-warblers/)
