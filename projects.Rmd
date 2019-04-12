@@ -29,7 +29,7 @@ The [Delaware Shorebird Project](http://www.dnrec.delaware.gov/fw/shorebirds/Pag
 <div class = "col-md-8">
 #### Individual misidentification  
   
-Most of the analyses for my PhD use mark-resight data of shorebirds marked with individually unique, field-readble flags like the one on the left. Many field house conversations about how easily flag reading errors could occur in the field or during data entry, we decided to investigate how frequently they occurred in our data and what effect that might have on survival estimates. We found that when misreads occur, they can cause apparent negative trends in survival even when in reality survival has been constant over time. The paper on that work is out this month in The Condor, so stay tuned! 
+Most of the analyses for my dissertation relied on mark-resight data of shorebirds marked with individually unique, field-readable flags like the one on the right. After several field house conversations about how easily flag reading errors could occur in the field or during data entry, I decided to investigate how frequently they occurred in our data and what effect that might have on survival estimates. We found that when misreads occur, they can cause apparent negative trends in survival even when in reality survival has been constant over time.  
 
 </div>
 
