@@ -7,8 +7,8 @@ geometry: margin=1in
 title: "CV"
 author: Anna M. Tucker
 #orcid: "orcid.org/0000-0002-9577-6885"
-jobtitle: "Postdoctoral Research Fellow"
-address: "School of Forestry and Wildlife Sciences, Auburn University"
+#jobtitle: "Postdoctoral Research Associate"
+#address: "School of Forestry and Wildlife Sciences, Auburn University"
 fontawesome: yes
 email: annamtucker@gmail.com
 github: annamtucker
