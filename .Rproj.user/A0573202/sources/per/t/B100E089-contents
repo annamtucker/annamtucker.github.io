@@ -1,0 +1,22 @@
+name: "annas-website"
+output_dir: "."
+navbar:
+  title: "Anna M. Tucker"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: projects.html
+    - text: "Publications"
+      href: pubs.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "CV"
+      href: files/tucker-cv.pdf
+#    - text: "Miscellaneous"
+#      href: misc.html
+  
+output:
+  html_document:
+    theme: sandstone
+    css: style.css
