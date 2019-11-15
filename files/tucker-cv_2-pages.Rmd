@@ -28,22 +28,25 @@ urlcolor: blue
 # Education
 
 Ph.D. Wildlife Sciences - Auburn University - 2019  
-*Stopover ecology and population dynamics of migratory shorebirds*  
-Advised by Dr. Conor McGowan
-  
 M.S. Ecology - Virginia Commonwealth University - 2014  
-*Occurrence and consequences of conspecific brood parasitism in a cavity-nesting warbler*  
-Advised by Dr. Lesley Bulluck and Dr. Rodney Dyer  
-  
 B.S. Biology - Loyola University Maryland - 2010  
   
-# Professional Experience  
+# Professional Appointments    
   
-Postdoctoral Researcher, School of Forestry and Wildlife Sciences, Auburn University (2019-present)  
-Supervisor: Dr. Conor McGowan  
-Project: *Population analysis and projection modeling for USFWS Species Status Assessments*  
-   
-   
+Postdoctoral Researcher, School of Forestry and Wildlife Sciences, Auburn University - 2019  
+
+# Peer-reviewed Publications   
+     
+**Tucker, A.M.**, C.P. McGowan, M. Catalano, A.L. DeRose-Wilson, R.A. Robinson, and J. Zimmerman. 2019. Foraging ecology mediates response to ecological mismatch during migratory stopover. Ecosphere, 10. 
+  
+**Tucker, A.M.**, C.P. McGowan, R.A. Robinson, J.A. Clark, J.E. Lyons, A.L. DeRose-Wilson, R. du Feu, G.E. Austin, P.W. Atkinson, and N.A. Clark. 2019. Effects of individual misidentification on estimates of survival in long-term mark-resight studies. The Condor: Ornithological Applications, 121: 1-13.  
+    
+Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Carotenoid metabolism strengthens the link between feather coloration and individual quality. Nature Communications: 9.
+  
+**Tucker, A.M.** and L.P. Bulluck.  2017. No evidence for a negative effect of conspecific brood parasitism on annual survival of female Prothonotary Warblers. Ibis, 160: 447-452.
+  
+**Tucker, A.M.**, R.J. Dyer, S.K. Huber, and L.P. Bulluck. 2016. Opportunistic conspecific brood parasitism in a box-nesting population of Prothonotary Warblers (*Protonotaria citrea*). The Auk: 133, 2, 298-307.
+    
 # Awards and Honors   
   
 **2019** Distinguished Dissertation Award, *Auburn Univeristy Graduate School*  
@@ -53,10 +56,8 @@ Project: *Population analysis and projection modeling for USFWS Species Status A
 **2018** AOS Council Student Presentation Award, *American Ornithological Society*  
 **2017** Best Student Poster, *Euring Analytical Meeting and Workshop*  
 **2017** Graduate Student Award, *Ducks Unlimited*     
-**2014** Outstanding Graduate Student in Ecology, *Virginia Commonwealth University*  
-**2010** Best Oral Presentation, *Loyola University Undergraduate Research and Scholarship Colloquium*  
-    
-    
+**2014** Outstanding Graduate Student in Ecology, *Virginia Commonwealth University* 
+   
 # Research Grants and Fellowships   
 
 **2017** Francis M. Peacock Scholarship for Native Bird Habitat, Garden Club of America *$4000*  
@@ -66,35 +67,10 @@ Project: *Population analysis and projection modeling for USFWS Species Status A
 **2013** J.J. Murray Research Award, Virginia Society of Ornithology *$1000*    
 **2008** Hauber Summer Research Fellowship, Loyola University *$3000*   
   
-  
-# Publications   
-     
-## **2019**  
-  
-**Tucker, A.M.**, C.P. McGowan, M. Catalano, A.L. DeRose-Wilson, R.A. Robinson, and J. Zimmerman. 2019. Foraging ecology mediates response to ecological mismatch during migratory stopover. Ecosphere, 10. 
-  
-**Tucker, A.M.**, C.P. McGowan, R.A. Robinson, J.A. Clark, J.E. Lyons, A.L. DeRose-Wilson, R. du Feu, G.E. Austin, P.W. Atkinson, and N.A. Clark. 2019. Effects of individual misidentification on estimates of survival in long-term mark-resight studies. The Condor: Ornithological Applications, 121: 1-13.  
-    
-## **2018**   
-  
-Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Carotenoid metabolism strengthens the link between feather coloration and individual quality. Nature Communications: 9.
-  
-## **2017**   
-  
-**Tucker, A.M.** and L.P. Bulluck.  2017. No evidence for a negative effect of conspecific brood parasitism on annual survival of female Prothonotary Warblers. Ibis, 160: 447-452.
-  
-## **2016**   
-  
-**Tucker, A.M.**, R.J. Dyer, S.K. Huber, and L.P. Bulluck. 2016. Opportunistic conspecific brood parasitism in a box-nesting population of Prothonotary Warblers (*Protonotaria citrea*). The Auk: 133, 2, 298-307.
-    
-  
 # Conference Presentations   
+^`*`^ *invited*
   
-## **Invited**  
-  
-**2019** Encounter type and frequency determine the effects of individual misidentification on survival estimation. *Oral presentation, American Fisheries Society & The Wildlife Society Joint Conference, Reno NV*  
-    
-## **Contributed**  
+**2019** Encounter type and frequency determine the effects of individual misidentification on survival estimation.^`*`^ *Oral presentation, American Fisheries Society & The Wildlife Society Joint Conference, Reno NV*  
 
 **2019** Estimating population growth rate and latent recruitment at a migratory stopover site using integrated population models. *Oral presentation, American Fisheries Society & The Wildlife Society Joint Conference, Reno NV*  
   
@@ -113,15 +89,23 @@ Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Ca
 **2014** Conspecific brood parasitism as an alternative breeding strategy in box-nesting Prothonotary Warblers. *Oral presentation, American Ornithologists' Union Annual Meeting, Estes Park CO*
   
 **2014** The occurrence and consequences of conspecific brood parasitism in the Prothonotary Warbler (*Protonotaria citrea*).  *Oral presentation, Virginia Society of Ornithology Annual Meeting, Norfolk VA*  
-  
+   
+# Service and Outreach  
+Founder and Coordinator, Wildlife Graduate Student & Postdoc Quant Club (2017-2018)  
+Graduate Student Representative, IT Specialist Hiring Committee (Jan 2018)  
+Ornithology Instructor, National Audubon Society, Hog Island Family Camp (2017-present)  
+Instructor, Graduate Women in Science and Girl Scout Pi Day (Mar 2017)  
+Ornithology Instructor, Alabama Extension Master Naturalist Program (Dec 2016)  
+Poster Session Judge, Auburn University This is Research Symposium (Mar 2016)  
+Vice President, VCU Graduate Organization of Biology Students (2013-2014)    
   
 # Professional Development   
-
+  
+Introduction to Bayesian Statistics with Nimble, Reno NV *2019*   
 Apprentice, National Conservation Training Center Structured Decision Making Workshop *2018*  
 Integrated Population Modeling Workshop, Patuxent Wildlife Research Center *2017*  
 Data Integration Workshop, Euring Analytical Meeting, Barcelona *2017*    
 Conservation Leaders for Tomorrow, Mansfield GA *2017*  
-  
   
 # Teaching  
   
@@ -136,23 +120,5 @@ Avian Conservation in North America, Ornithology, Auburn University (Apr 2018)
 Migratory Shorebirds in Delaware Bay, Osher Lifelong Learning Institute, Auburn AL (Apr 2017)  
 Avian Life History, Ornithology, Virginia Commonwealth University (Mar 2014)  
   
-## **Teaching Assistantships**  
-Ornithology Lab, Auburn University (Spring 2016)  
-Anatomy and Physiology II Lab, Auburn University (Spring 2015-Fall 2016)  
-Ornithology Lab, Virginia Commonwealth University (Spring 2014)  
-Tropical Avian Ecology in Panama, Virginia Commonwealth University (Spring 2014)  
-Intro. to Biological Sciences Lab, Virginia Commonwealth University (Fall 2012-Fall 2013)   
+
   
-  
-# Service and Outreach  
-Founder and Coordinator, Wildlife Graduate Student & Postdoc Quant Club (2017-2018)  
-Graduate Student Representative, IT Specialist Hiring Committee (Jan 2018)  
-Ornithology Instructor, National Audubon Society, Hog Island Family Camp (2017-present)  
-Instructor, Graduate Women in Science and Girl Scout Pi Day (Mar 2017)  
-Ornithology Instructor, Alabama Extension Master Naturalist Program (Dec 2016)  
-Bird Survey Leader, Alabama Extension Program BioBlitz (2016-2017)  
-Poster Session Judge, Auburn University This is Research Symposium (Mar 2016)  
-Shorebird Monitoring Volunteer, Delaware Shorebird Project (2015-2018)  
-Vice President, VCU Graduate Organization of Biology Students (2013-2014)  
-Interpretive Aide, National Aquarium in Baltimore (2010-2011)  
-Environmental Education Volunteer, Patterson Park Audubon Society (2009-2010)  

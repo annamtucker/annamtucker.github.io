@@ -58,9 +58,10 @@ Our paper on this work is published in The Condor - read the [pdf](files/Tucker 
 #### Variation in timing and rate of mass gain  
 
 Many shorebird species use Delaware Bay during spring migration. Red knot have received the most attention because they've experienced drastic population declines, which has been linked to declines in horseshoe crabs. Specializing on a particular, abundant prey item is a good strategy for long-distance migrants as long as that prey item is reliably abundant. When stopover conditions are more unpredictable, it might be a better strategy to be a generalist forager like the ruddy turnstone. I'm comparing capture weights to see if red knot and ruddy turnstone differ in their sensitivity to changing annual food availability, measured as the annual variation in timing and rate of mass gain.
-
-
-I recently presented on this work at the 2018 AOS Annual Meeting and won an [AOS Council Student Presentation Award](http://www.americanornithology.org/content/2018-aos-student-presentation-award-winners)!
+  
+Our paper on this work is published in Ecosphere. Download the pdf [here](files/Tucker_et_al-2019-Ecosphere.pdf)  
+  
+This work was also highlighted on the [Wader Tales blog](https://wadertales.wordpress.com/2019/11/15/red-knot-pay-the-price-for-being-fussy-eaters/).  
 </div>
 </div>
 ---

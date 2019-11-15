@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -70,9 +71,7 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -191,8 +189,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -249,20 +245,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -313,7 +306,7 @@ $(document).ready(function () {
 <p><br><br><br></p>
 <div id="publications" class="section level3">
 <h3>Publications</h3>
-<p><br><br> <strong>Tucker, A.M.</strong>, C.P. McGowan, M. Catalano, A.L. DeRose-Wilson, R.A. Robinson, and J. Zimmerman. Foraging ecology mediates response to ecological mismatch during migratory stopover. <em>In revision - Ecosphere</em></p>
+<p><br><br> <strong>Tucker, A.M.</strong>, C.P. McGowan, M. Catalano, A.L. DeRose-Wilson, R.A. Robinson, and J. Zimmerman. 2019. Foraging ecology mediates response to ecological mismatch during migratory stopover. Ecosphere, 10. <a href="files/Tucker_et_al-2019-Ecosphere.pdf">pdf</a></p>
 <p>Robinson, R.A. J.A. Clark, N.A. Clark, A.L. DeRose-Wilson, A. Dey, K. Kalasz, L.J. Niles, H. P. Sitters, <strong>A.M. Tucker</strong>, and C.D.T. Minton. Mass gain strategies of a spring-staging long distance migrant shorebird, the Red Knot Calidris canutus. <em>In revision - Wader Study Group Bulletin</em></p>
 <p><strong>Tucker, A.M.</strong>, C.P. McGowan, R.A. Robinson, J.A. Clark, J.E. Lyons, A.L. DeRose-Wilson, R. du Feu, G.E. Austin, P.W. Atkinson, and N.A. Clark. Effects of individual misidentification on estimates of survival in long-term mark-resight studies. The Condor: Ornithological Applications, 121: 1-13. doi: 10.1093/condor/duy017 <a href="files/Tucker%20et%20al._2019.pdf">pdf</a></p>
 <p>Weaver, R.J., E.S.A. Santos, <strong>A.M. Tucker</strong>, A.E. Wilson, and G.E. Hill. 2018. Carotenoid metabolism strengthens the link between feather coloration and individual quality. Nature Communications: 9, 1. doi: 10.1038/s41467-017-02649-z <a href="files/Weaver-etal_2018.pdf">pdf</a></p>
@@ -338,6 +331,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
