@@ -33,8 +33,9 @@ B.S. Biology - Loyola University Maryland - 2010
   
 # Professional Appointments    
   
-Postdoctoral Researcher, School of Forestry and Wildlife Sciences, Auburn University - 2019  
-
+Postdoctoral Research Associate, USGS Patuxent Wildlife Research Center - Jan 2020-present 
+Postdoctoral Research Associate, Auburn University - Apr 2019-Jan 2020  
+  
 # Peer-reviewed Publications   
      
 **Tucker, A.M.**, C.P. McGowan, M. Catalano, A.L. DeRose-Wilson, R.A. Robinson, and J. Zimmerman. 2019. Foraging ecology mediates response to ecological mismatch during migratory stopover. Ecosphere, 10. 
@@ -68,9 +69,8 @@ Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Ca
 **2008** Hauber Summer Research Fellowship, Loyola University *$3000*   
   
 # Conference Presentations   
-^`*`^ *invited*
   
-**2019** Encounter type and frequency determine the effects of individual misidentification on survival estimation.^`*`^ *Oral presentation, American Fisheries Society & The Wildlife Society Joint Conference, Reno NV*  
+**2019** Encounter type and frequency determine the effects of individual misidentification on survival estimation. *Oral presentation, American Fisheries Society & The Wildlife Society Joint Conference, Reno NV*  
 
 **2019** Estimating population growth rate and latent recruitment at a migratory stopover site using integrated population models. *Oral presentation, American Fisheries Society & The Wildlife Society Joint Conference, Reno NV*  
   
@@ -89,36 +89,11 @@ Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Ca
 **2014** Conspecific brood parasitism as an alternative breeding strategy in box-nesting Prothonotary Warblers. *Oral presentation, American Ornithologists' Union Annual Meeting, Estes Park CO*
   
 **2014** The occurrence and consequences of conspecific brood parasitism in the Prothonotary Warbler (*Protonotaria citrea*).  *Oral presentation, Virginia Society of Ornithology Annual Meeting, Norfolk VA*  
-   
-# Service and Outreach  
-Founder and Coordinator, Wildlife Graduate Student & Postdoc Quant Club (2017-2018)  
-Graduate Student Representative, IT Specialist Hiring Committee (Jan 2018)  
-Ornithology Instructor, National Audubon Society, Hog Island Family Camp (2017-present)  
-Instructor, Graduate Women in Science and Girl Scout Pi Day (Mar 2017)  
-Ornithology Instructor, Alabama Extension Master Naturalist Program (Dec 2016)  
-Poster Session Judge, Auburn University This is Research Symposium (Mar 2016)  
-Vice President, VCU Graduate Organization of Biology Students (2013-2014)    
-  
+
 # Professional Development   
   
 Introduction to Bayesian Statistics with Nimble, Reno NV *2019*   
 Apprentice, National Conservation Training Center Structured Decision Making Workshop *2018*  
 Integrated Population Modeling Workshop, Patuxent Wildlife Research Center *2017*  
-Data Integration Workshop, Euring Analytical Meeting, Barcelona *2017*    
 Conservation Leaders for Tomorrow, Mansfield GA *2017*  
-  
-# Teaching  
-  
-## **Lesson Development**  
-Quantitative Techniques for Species Status Assessments, USFWS Training Course (2017-2018)  
-Wildlife Population Science Lab, Auburn University (Spring 2018)  
-Ornithology Program, National Audubon Society Hog Island Family Camp (2017-present)  
-Ornithology Lab, Virginia Commonwealth University (Summer 2013)  
-  
-## **Guest Lectures**  
-Avian Conservation in North America, Ornithology, Auburn University (Apr 2018)  
-Migratory Shorebirds in Delaware Bay, Osher Lifelong Learning Institute, Auburn AL (Apr 2017)  
-Avian Life History, Ornithology, Virginia Commonwealth University (Mar 2014)  
-  
-
   

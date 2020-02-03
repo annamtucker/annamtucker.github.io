@@ -40,16 +40,22 @@ B.S. Biology - Loyola University Maryland - 2010
   
 # Professional Appointments    
   
-Postdoctoral Researcher, School of Forestry and Wildlife Sciences, Auburn University - 2019  
+Postdoctoral Researcher, U.S. Geological Survey, Patuxent Wildlife Research Center  
+Jan 2020-present  
+*iime-dependent management strategies for migratory birds under climate change*  
+Advised by Dr. Jim Lyons and Dr. Michael Runge  
+  
+Postdoctoral Researcher, School of Forestry and Wildlife Sciences, Auburn University  
+Apr 2019-Dec 2019    
 *Population analysis and projection modeling for USFWS Species Status Assessments*  
+Advised by Dr. Conor McGowan  
    
    
 # Publications   
   
-**Tucker, A.M.**, C.P. McGowan, J.E. Lyons, A.L. DeRose-Wilson, N.A. Clark. *In prep.* Estimating population growth rate and latent recruitment at a migratory stopover site using integrated population models. 
+**Tucker, A.M.**, C.P. McGowan, E. Mulero, N.F. Angeli, J.P. Zegarra. *In review - USGS FSP.*  Developing a demographic projection model to support conservation decision making for an endangered snake with limited monitoring data
   
 **Tucker, A.M.**, C.P. McGowan, J.E. Lyons, A.L. DeRose-Wilson, N.A. Clark. *In review - USGS FSP.* Annual variation in use of a spring stopover site by three migratory shorebirds.  
-     
 **Tucker, A.M.**, C.P. McGowan, M. Catalano, A.L. DeRose-Wilson, R.A. Robinson, and J. Zimmerman. 2019. Foraging ecology mediates response to ecological mismatch during migratory stopover. Ecosphere, 10. 
   
 **Tucker, A.M.**, C.P. McGowan, R.A. Robinson, J.A. Clark, J.E. Lyons, A.L. DeRose-Wilson, R. du Feu, G.E. Austin, P.W. Atkinson, and N.A. Clark. 2019. Effects of individual misidentification on estimates of survival in long-term mark-resight studies. The Condor: Ornithological Applications, 121: 1-13.  
