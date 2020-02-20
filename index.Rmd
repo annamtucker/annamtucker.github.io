@@ -19,7 +19,7 @@ I'm a postdoc with the USGS Patuxent Wildlife Research Center, working on develo
   
 I'm broadly interested in understanding full annual cycle population dynamics (with a special interest in migratory species) using quantitative tools that help us predict population responses to changing environmental conditions. My research combines full life cycle ecology, quantitative methods, and applications to management and conservation issues.  
   
-I previosly worked with [Conor McGowan](http://www.auburn.edu/~cpm0014/) in the USGS Alabama Fish and Wildlife Cooperative Research Unit to develop analysis and projection modeling tools to support Species Status Assessments for the USFWS--these assessments provide the scientific support for classification and recovery decisions under the Endangered Species Act.  
+I previously worked with [Conor McGowan](http://www.auburn.edu/~cpm0014/) in the USGS Alabama Fish and Wildlife Cooperative Research Unit to develop analysis and projection modeling tools to support Species Status Assessments for the USFWS--these assessments provide the scientific support for classification and recovery decisions under the Endangered Species Act.  
   
 My dissertation work focused on stopover ecology and population dynamics of migratory shorebirds. I used a long-term mark-recapture dataset from Delaware Bay to understand how shorebirds respond to changing stopover conditions, and how stopover conditions can influence population dynamics and stability. 
 
