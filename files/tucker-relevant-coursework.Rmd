@@ -1,0 +1,141 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: latex-cv.tex
+geometry: margin=1in
+title: "courses"
+author: Anna M. Tucker
+#orcid: "orcid.org/0000-0002-9577-6885"
+jobtitle: "Relevant Coursework"
+#address: "USGS Patuxent Wildlife Research Center"
+fontawesome: yes
+#email: annamtucker@gmail.com
+#github: annamtucker
+#phone: "+1 555 5555"
+#twitter: annamtucker_
+#web: 'annamtucker.github.io'
+#updated: yes
+#keywords: quantitative ecology, population dynamics, migratory birds
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+```{r, echo = F, include = F}
+require(tidyverse)
+require(kableExtra)
+
+knitr::opts_chunk$set(echo = F, include = T)
+
+courses <- read_csv("completed-coursework-usajobs.csv")
+c <- courses %>% 
+  select(c("University", `Course Number`, `Course Name`, `Credit Hours`, "wild", "eco", "other")) 
+```
+
+
+# Wildlife Biologist (GS-0486)  
+  
+*At least 9 semester hours of training applicable to wildlife biology in such subjects as mammalogy, ornithology, animal ecology, wildlife management, principles of population dynamics, or related course work in the field of wildlife biology*  
+  
+Total Credit Hours = 19  
+  
+```{r}
+rows <- c %>% 
+  filter(wild == 4) %>% 
+  nrow()
+
+c %>% 
+  filter(wild == 4) %>% 
+  select(-c(wild, eco, other)) %>% 
+  kable() %>% 
+  kable_styling(position = "center") %>% 
+  column_spec(1, width = "16em") %>% 
+  column_spec(2, width = "5em") %>% 
+  column_spec(3, width = "14em") %>% 
+  column_spec(4, width = "3em") %>% 
+  row_spec(1:6, align = "c") %>% 
+  row_spec(0, bold = T, align = "c") 
+```
+   
+&nbsp  ;  
+*At least 12 semester hours in zoological subjects such as invertebrate zoology, vertebrate zoology, comparative anatomy of the vertebrates, embryology, animal physiology, entomology, herpetology, parasitology, and genetics*  
+  
+Total Credit Hours = 15  
+  
+```{r}
+c %>% 
+  filter(wild == 3) %>% 
+  select(-c(wild, eco, other)) %>% 
+  kable()
+```
+  
+  
+&nbsp  ;
+*At least 9 semester hours in the field of botany and related plant science*   
+  
+Total Credit Hours = 9  
+  
+```{r}
+c %>% 
+  filter(wild == 1) %>% 
+  select(-c(wild, eco, other)) %>% 
+  kable()
+```
+  
+&nbsp  ;
+*At least 15 semester hours of training in any combination of two or more of the following: chemistry, physics, mathematics, statistics, soils, and/or geology*  
+  
+Total Credit Hours = 30  
+  
+```{r}
+c %>% 
+  filter(wild == 2) %>% 
+  select(-c(wild, eco, other)) %>% 
+  kable()
+```
+
+
+# Ecologist (GS-0408)  
+  
+*At least 9 semester hours or the equivalent in ecology*  
+  
+Total Credit Hours = 17  
+  
+```{r}
+c %>% 
+  filter(eco == 2) %>% 
+  select(-c(wild, eco, other)) %>% 
+  kable()
+```
+  
+&nbsp  ;
+*At least 12 semester hours or the equivalent in physical and mathematical sciences*    
+  
+Total Credit Hours = 34  
+  
+```{r}
+c %>% 
+  filter(eco == 1) %>% 
+  select(-c(wild, eco, other)) %>% 
+  kable()
+```
+  
+  
+# Other Relevant Coursework  
+  
+
+```{r}
+c %>% 
+  filter(other == 1) %>% 
+  select(-c(wild, eco, other)) -> c1
+  
+c1$`Course Name`[1] = "Adv. Techniques in Wildlife Population Analysis"
+kable(c1)
+```
+  
+
+
+

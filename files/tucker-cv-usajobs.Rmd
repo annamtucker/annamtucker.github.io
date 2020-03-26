@@ -121,7 +121,7 @@ Advisor: Dr. Conor McGowan
 - statistical programming and hierarchical modeling (R, BUGS/JAGS, Nimble)  
 - designing simulation studies to evaluate new modeling methods  
 - lesson planning and development for population modeling, including developing interactive Shiny apps for in-class exercises  
-- field surveys of migratory shorebirds, including flock counts, individual resighting, cannon netting, banding, and measuring a vareity of species    
+- field surveys of migratory shorebirds, including flock counts, individual resighting, cannon netting, banding, and measuring several species    
 - effective written and oral communication  
   
   
@@ -138,7 +138,7 @@ Advisors: Dr. Lesley Bulluck and Dr. Rodney Dyer
 - analyzed ~1500 blood samples to assign parentage of nestlings and determine effects of conspecific brood parasitism on host fitness   
 - mentored undergraduate researchers (4) in developing independent research projects, conducting field work, analyzing data, and writing manuscripts     
 - developed lesson plans and taught Ornithology lab (upper-level undergraduate course, 20 students)   
-- conducted fieldwork to monitor breeding prothonotary warblers, including nest surveys, mist netting, banding, and behavioral observations   
+- conducted fieldwork to monitor breeding prothonotary warblers  
   
 *Accomplishments:*  
 - authored two publications on the reproductive ecology of conspecific brood parasitism in prothonotary warblers    
@@ -147,6 +147,7 @@ Advisors: Dr. Lesley Bulluck and Dr. Rodney Dyer
   
 *Related Skills:*  
 - planning field data collection and organizing field crews  
+- ornithology fieldwork, including nest surveys; mist netting; banding, measuring, and taking blood samples from warblers; behavioral observations  
 - database development, including capacity for data entry from multiple users (Microsoft Access)  
 - laboratory techniques including DNA extraction, PCR, gel electrophoresis  
 - analysis of microsatellite data  
@@ -216,7 +217,7 @@ Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Ca
   
 **2017** Comparing annual variation in stopover mass gain between two long-distance migrants. *Oral presentation, Western Hemisphere Shorebird Group, Paracas, Peru* (presented by R.A. Robinson)
   
-**2017**. Combining multistate models and network theory to evaluate movement patterns during migratory stopover. *Poster presentation, Euring Analytical Meeting, Barcelona, Spain* Winner--Best Student Poster Award
+**2017**. Combining multistate models and network theory to evaluate movement patterns during migratory stopover. *Poster presentation, EURING Analytical Meeting, Barcelona, Spain* Winner--Best Student Poster Award
   
 **2016** Assessing the influence of migratory connectivity and spring stopover site disturbance on population dynamics using a full annual cycle simulation model. *Oral presentation, North American Ornithological Conference VI, Washington DC*
   
@@ -257,7 +258,7 @@ Intro. to Biological Sciences Lab, Virginia Commonwealth University (Fall 2012-F
   
   
 # Service and Outreach  
-Peer Review: *Ibis*, *Landscape and Urban Planning*, *Urban Ecosystems*, *Evolutionary Ecology*    
+Peer Reviewer: *Ibis*, *Conservation Science and Practice*, *Landscape and Urban Planning*, *Urban Ecosystems*, *Evolutionary Ecology*    
 Founder and Coordinator, Wildlife Graduate Student & Postdoc Quant Club (2017-2018)  
 Graduate Student Representative, IT Specialist Hiring Committee (Jan 2018)  
 Ornithology Instructor, National Audubon Society, Hog Island Family Camp (2017-present)  
