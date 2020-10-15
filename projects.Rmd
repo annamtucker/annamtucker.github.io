@@ -16,6 +16,21 @@ output:
 <br><br>
 
 ---
+  
+### Optimal management of migratory birds under climate change  
+  
+Our ability to effectively manage and conserve wildlife is founded in an understanding of how our actions and the environment influence wildlife populations. Current practices use population monitoring data from the past to determine key ecological relationships and make predictions about future population status. In most cases, these forecasts assume that the relationships we observed in the past will remain the same in the future. However, climate change is influencing wildlife populations in many dynamic and uncertain ways, leading to a situation in which our observations of the past are poor predictors of the future. Continuing to use the existing frameworks could be suboptimal at best or detrimental at worst to acheiving conservation and management objectives.   
+  
+We received a Powell Center Working Group Grant to examine issues of land acquisition, harvest management, and incidental under non-stationary system dynamics. [See the Powell Center project page here.](https://www.usgs.gov/centers/powell-ctr/science/markov-decision-processes-non-autonomous-socio-ecological-systems?qt-science_center_objects=0#qt-science_center_objects)  
+  
+We also received funding from the Northeast and Midwest Climate Adaptation Science Centers to apply these ideas to the management of waterfowl harvest by the USFWS Division of Migratory Bird Management. More updates on these projects to come!  
+   
+### Species Status Assessments  
+  
+[Species Status Assessements (SSAs)](https://www.fws.gov/endangered/improving_esa/ssa.html) are the science document used to support decision making by the USFWS under the Endangered Species Act. These documents summarize the best available science regarding the resiliency, redundancy, and representation of a species. As a postdoc at Auburn University, I worked closely with USFWS biologists in Regions 2, 4, and 6 to understand the data available for this assessment and to develop quantitative analyses and projection models to be included in the SSA. I also played a key role in developing a two-day crash course in quantitative methods for biologists working on SSAs. See my teaching page for more information.  
+  
+The projection model we developed for the Puerto Rican boa was recently published in Animal Conservation! [Download the pdf here](files/Tucker-etal_2020.pdf)  
+
 
 ### Delaware Bay shorebirds  
   

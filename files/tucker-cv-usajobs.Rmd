@@ -1,0 +1,260 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: latex-cv.tex
+geometry: margin=1in
+title: "CV"
+author: Anna M. Tucker
+#orcid: "orcid.org/0000-0002-9577-6885"
+jobtitle: "Postdoctoral Research Associate"
+address: "USGS Patuxent Wildlife Research Center"
+fontawesome: yes
+email: annamtucker@gmail.com
+github: annamtucker
+#phone: "+1 555 5555"
+#twitter: annamtucker_
+#web: 'annamtucker.github.io'
+updated: yes
+#keywords: quantitative ecology, population dynamics, migratory birds
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+
+# Education
+
+Ph.D. Wildlife Sciences - Auburn University - 2019  
+  
+M.S. Ecology - Virginia Commonwealth University - 2014  
+  
+B.S. Biology - Loyola University Maryland - 2010  
+  
+  
+# Work Experience      
+  
+**Postdoctoral Researcher**  
+**U.S. Geological Survey, Patuxent Wildlife Research Center**  
+GS-0401-12, Step 01  
+Jan 2020-present  
+40 hours/week  
+$88,335/year  
+
+Project title: Dynamic management strategies for migratory birds under non-stationarity  
+Advised by Dr. Jim Lyons and Dr. Michael Runge  
+  
+*Duties:*  
+- develop and evaluate novel approaches for management decision making for dynamic systems, with an emphasis on the management of migratory birds under climate change which may be affected at multiple scales (temporal and spatial)    
+- work with USFWS partners to develop decision-making frameworks to address problems related to harvest, land acquisition, and incidental take  
+- synthesize current literature on management of non-stationary systems  
+  
+*Accomplishments:*  
+- wrote and submitted proposal to convene a Powell Center Working Group to address challenges associated with natural resource management under non-stationary   
+- wrote invited proposal to the NE and SE Climate Adaptation Science Centers to develop new methods for adaptive management of waterfowl harvest in the face of climate change   
+- attended Upper Midwest Environmental Science Center Adaptive Management Review Workshop, which addressed double- and triple-loop learning in four case studies of adaptive management in Region 3 refuges   
+  
+*Related Skills:*  
+- decision analysis  
+- dynamic optimization (stochastic dynamic programming)  
+- population modeling  
+- statistical programming (R, BUGS/JAGS, Nimble)  
+- written communication via grant proposals and manuscripts  
+  
+  
+**Postdoctoral Researcher**  
+**School of Forestry and Wildlife Sciences/ALCFWRU, Auburn University**  
+Apr 2019-Jan 2020  
+40 hours/week  
+$48,000/year         
+
+Project title: Population analysis and projection modeling for USFWS Species Status Assessments  
+Advised by Dr. Conor McGowan  
+   
+*Duties:*  
+- worked with USFWS partners to develop population projection models for Species Status Assessments (SSAs), the science document that supports decision-making under the Endangered Species Act   
+- analyzed monitoring data to estimate demographic parameters   
+- compiled habitat suitability models to evaluate habitat availability across species' ranges   
+- developed population projection simulation models that allow biologists to estimate quasi-extinction risk and the probability of population growth or decline under multiple future scenarios   
+  
+*Accomplishments:*  
+- developed population model and submitted an appendix to be included in the SSA for the Puerto Rican boa (Region 4)  
+- wrote an analysis plan for a black-footed ferret PVA (Region 6)  
+- authored one publication on the Puerto Rican boa model, with an emphasis on developing PVAs for data deficient species     
+- developed and taught SSA 200: Strategic Use of Data, a two-day USFWS training course to help biologists better understand population modeling tools that can be used in SSAs (delivered three times in 2018-2019)  
+   
+*Related Skills:*  
+- population ecology, demographic estimation, population modeling  
+- statistical programming (R, BUGS/JAGS, Nimble)  
+- spatial analysis (qGIS, ArcMap, R)  
+- use of Github for version control and collaboration  
+- effective written and oral communication with biologists and decision makers regarding the structure, outputs, and inference from population models  
+   
+   
+**Graduate Research Assistant**  
+**School of Forestry and Wildlife Sciences/ALCFWRU, Auburn University**    
+Jan 2015-Apr 2019  
+20 hours/week  
+$19,000/year  
+
+Dissertation title: Stopover ecology and population dynamics of migratory shorebirds  
+Advised by Dr. Conor McGowan  
+  
+*Duties:*  
+- analyzed mark-resight, capture, and count data from 20 years of shorebird monitoring in Delaware Bay to estimate demographic parameters and evaluate the effects of stopover site conditions on shorebird population dynamics   
+- worked closely with state biologists from Delaware Division of Fish and Wildlife to develop a research plan designed to address knowledge gaps, in support of shorebird conservation efforts in Delaware      
+- developed lesson plans and taught Wildlife Population Analysis lab (upper-level undergraduate course, 30 students) and Ornithology lab (upper-level undergraduate course, 50 students)   
+- assisted with field surveys for migratory shorebirds, including cannon net captures, banding, counting mixed flocks, and resighting individually-identifiable leg flags    
+  
+*Accomplishments:*  
+- authored four publications on shorebird stopover ecology and analysis of stopover monitoring data    
+- awarded a Distinguished Dissertation Award from Auburn University (one of 10 awarded)   
+- presented dissertation research at three international and three national academic conferences, awarded two student presentation awards (AOS 2018 and Euring 2017)    
+- founded and led the Wildlife Graduate Student and Postdoc Quant Club, a weekly meeting of 6-10 members to discuss quantitative methods and tools, including sharing current work and formal tutorials from group members   
+- mentored M.S. students and undergraduates as needed to assist with project development and quantitative methods   
+   
+*Related Skills:*  
+- full annual cycle population analysis, estimation of demographic parameters     
+- statistical programming and hierarchical modeling (R, BUGS/JAGS, Nimble)  
+- designing simulation studies to evaluate new modeling methods  
+- effective written and oral communication  
+  
+  
+**Graduate Teaching Assistant**  
+**Department of Biology, Virginia Commonwealth University**      
+Aug 2012-May 2014  
+20 hours/week  
+$13,000/year  
+
+Thesis title: Occurrence and consequences of conspecific brood parasitism in a cavity-nesting warbler  
+Advised by Dr. Lesley Bulluck  
+  
+*Duties:*  
+- analyzed ~1500 blood samples to assign parentage of nestlings and determine effects of conspecific brood parasitism on host fitness   
+- mentored undergraduate researchers (4) in developing independent research projects, conducting field work, analyzing data, and writing manuscripts     
+- developed lesson plans and taught Ornithology lab (upper-level undergraduate course, 20 students)   
+- conducted fieldwork to monitor breeding prothonotary warblers, including nest surveys, mist netting, banding, and behavioral observations   
+  
+*Accomplishments:*  
+- authored two publications on the reproductive ecology of conspecific brood parasitism in prothonotary warblers    
+- presented thesis research at one national and one regional academic conference    
+- awarded Outstanding Graduate Student in Ecology from the Department of Biology   
+  
+*Related Skills:*  
+- laboratory techniques including DNA extraction, PCR, gel electrophoresis  
+- analysis of microsatellite data  
+- estimation of demographic parameters  
+- effective written and oral communication  
+  
+  
+# Publications   
+  
+**Tucker, A.M.**, C.P. McGowan, E. Mulero, N.F. Angeli, J.P. Zegarra. *In review - Animal Conservation.*  Developing a demographic projection model to support conservation decision making for an endangered snake with limited monitoring data.  
+  
+**Tucker, A.M.**, C.P. McGowan, J.E. Lyons, A.L. DeRose-Wilson, N.A. Clark. *In review - Ecological Applications.* Species-specific demographic and behavioral responses to environmental conditions during migratory stopover.
+  
+**Tucker, A.M.**, C.P. McGowan, M. Catalano, A.L. DeRose-Wilson, R.A. Robinson, and J. Zimmerman. 2019. Foraging ecology mediates response to ecological mismatch during migratory stopover. Ecosphere, 10. 
+  
+**Tucker, A.M.**, C.P. McGowan, R.A. Robinson, J.A. Clark, J.E. Lyons, A.L. DeRose-Wilson, R. du Feu, G.E. Austin, P.W. Atkinson, and N.A. Clark. 2019. Effects of individual misidentification on estimates of survival in long-term mark-resight studies. The Condor: Ornithological Applications, 121: 1-13.  
+    
+Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Carotenoid metabolism strengthens the link between feather coloration and individual quality. Nature Communications: 9.
+  
+**Tucker, A.M.** and L.P. Bulluck.  2017. No evidence for a negative effect of conspecific brood parasitism on annual survival of female Prothonotary Warblers. Ibis, 160: 447-452.
+  
+**Tucker, A.M.**, R.J. Dyer, S.K. Huber, and L.P. Bulluck. 2016. Opportunistic conspecific brood parasitism in a box-nesting population of Prothonotary Warblers (*Protonotaria citrea*). The Auk: 133, 2, 298-307.
+    
+  
+# Awards and Honors   
+  
+**2019** Distinguished Dissertation Award, *Auburn Univeristy Graduate School*  
+**2019** Outstanding Doctoral Student, *Auburn University Graduate Student Council*  
+**2019** Drummond PhD Student Award, *AU School of Forestry and Wildlife Sciences*  
+**2018** Biometrics Working Group Travel Award, *The Wildlife Society*  
+**2018** AOS Council Student Presentation Award, *American Ornithological Society*  
+**2017** Best Student Poster, *Euring Analytical Meeting and Workshop*  
+**2017** Graduate Student Award, *Ducks Unlimited*     
+**2014** Outstanding Graduate Student in Ecology, *Virginia Commonwealth University* 
+    
+  
+# Research Grants and Fellowships   
+
+**2017** Francis M. Peacock Scholarship for Native Bird Habitat, Garden Club of America *$4000*  
+**2015** Graduate Thesis/Dissertation Fellowship, Auburn University Graduate School *$500*    
+**2015** Research Grant, Eastern Bird Banding Association Memorial Fund *$1000*    
+**2013** Student Research Award, VCU Rice Center *$1000*  
+**2013** J.J. Murray Research Award, Virginia Society of Ornithology *$1000*    
+**2008** Hauber Summer Research Fellowship, Loyola University *$3000*   
+  
+  
+# Conference Presentations   
+  
+## **Invited**  
+  
+**2019** Encounter type and frequency determine the effects of individual misidentification on survival estimation. *Oral presentation, American Fisheries Society & The Wildlife Society Joint Conference, Reno NV*  
+    
+## **Contributed**  
+
+**2019** Estimating population growth rate and latent recruitment at a migratory stopover site using integrated population models. *Oral presentation, American Fisheries Society & The Wildlife Society Joint Conference, Reno NV*  
+  
+**2019** Annual variation in use of a spring stopover site by three migratory shorebirds. *Oral presentation, American Ornithological Society Annual Meeting, Achorage AK*  
+    
+**2018** Bias in survival estimates due to individual misidentification in long-term mark-resight studies. *Oral presentation, The Wildlife Society Annual Meeting, Cleveland OH*
+  
+**2018** Effects of resource mismatch on stopover mass gain dynamics for two Artic-breeding shorebirds. *Oral presentation, American Ornithological Society Annual Meeting, Tucson AZ* Winner--Student Presentation Award
+  
+**2017** Comparing annual variation in stopover mass gain between two long-distance migrants. *Oral presentation, Western Hemisphere Shorebird Group, Paracas, Peru* (presented by R.A. Robinson)
+  
+**2017**. Combining multistate models and network theory to evaluate movement patterns during migratory stopover. *Poster presentation, Euring Analytical Meeting, Barcelona, Spain* Winner--Best Student Poster Award
+  
+**2016** Assessing the influence of migratory connectivity and spring stopover site disturbance on population dynamics using a full annual cycle simulation model. *Oral presentation, North American Ornithological Conference VI, Washington DC*
+  
+**2014** Conspecific brood parasitism as an alternative breeding strategy in box-nesting Prothonotary Warblers. *Oral presentation, American Ornithologists' Union Annual Meeting, Estes Park CO*
+  
+**2014** The occurrence and consequences of conspecific brood parasitism in the Prothonotary Warbler (*Protonotaria citrea*).  *Oral presentation, Virginia Society of Ornithology Annual Meeting, Norfolk VA*  
+  
+  
+# Professional Development   
+  
+Observer, Adaptive Management Review Workshop, Upper Midwest Environmental Science Center *2020*  
+Introduction to Bayesian Statistics with Nimble, Reno NV *2019*   
+Apprentice, National Conservation Training Center Structured Decision Making Workshop *2018*  
+Integrated Population Modeling Workshop, Patuxent Wildlife Research Center *2017*  
+Data Integration Workshop, Euring Analytical Meeting, Barcelona *2017*    
+Conservation Leaders for Tomorrow, Mansfield GA *2017*  
+  
+  
+# Teaching  
+  
+## **Lesson Development**  
+Quantitative Techniques for Species Status Assessments, USFWS Training Course (2017-2018)  
+Wildlife Population Science Lab, Auburn University (Spring 2018)  
+Ornithology Program, National Audubon Society Hog Island Family Camp (2017-present)  
+Ornithology Lab, Virginia Commonwealth University (Summer 2013)  
+  
+## **Guest Lectures**  
+Avian Conservation in North America, Ornithology, Auburn University (Apr 2018)  
+Migratory Shorebirds in Delaware Bay, Osher Lifelong Learning Institute, Auburn AL (Apr 2017)  
+Avian Life History, Ornithology, Virginia Commonwealth University (Mar 2014)  
+  
+## **Teaching Assistantships**  
+Ornithology Lab, Auburn University (Spring 2016)  
+Anatomy and Physiology II Lab, Auburn University (Spring 2015-Fall 2016)  
+Ornithology Lab, Virginia Commonwealth University (Spring 2014)  
+Tropical Avian Ecology in Panama, Virginia Commonwealth University (Spring 2014)  
+Intro. to Biological Sciences Lab, Virginia Commonwealth University (Fall 2012-Fall 2013)   
+  
+  
+# Service and Outreach  
+Founder and Coordinator, Wildlife Graduate Student & Postdoc Quant Club (2017-2018)  
+Graduate Student Representative, IT Specialist Hiring Committee (Jan 2018)  
+Ornithology Instructor, National Audubon Society, Hog Island Family Camp (2017-present)  
+Instructor, Graduate Women in Science and Girl Scout Pi Day (Mar 2017)  
+Ornithology Instructor, Alabama Extension Master Naturalist Program (Dec 2016)  
+Bird Survey Leader, Alabama Extension Program BioBlitz (2016-2017)  
+Poster Session Judge, Auburn University This is Research Symposium (Mar 2016)  
+Shorebird Monitoring Volunteer, Delaware Shorebird Project (2015-2018)  
+Vice President, VCU Graduate Organization of Biology Students (2013-2014)  
+Interpretive Aide, National Aquarium in Baltimore (2010-2011)  
+Environmental Education Volunteer, Patterson Park Audubon Society (2009-2010)  

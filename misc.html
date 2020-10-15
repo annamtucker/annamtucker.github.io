@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>misc.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -233,6 +232,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -317,11 +317,12 @@ for(i in 1:nrow(df)){
 <p>I knoooow that for loops are slow and inefficient, but they are intuitive to write (if not always intuitive to read) and I have a deep lack of understanding of <code>apply</code>. I also know that the <code>purrr</code> package is designed specifically to eliminate the need for things like loops, but had never really figured out exactly how <code>map()</code> and its related functions work (<code>pmap</code>, <code>map2</code>, etc etc). HOWEVER, I think <a href="https://github.com/jennybc/row-oriented-workflows#readme">this excellent tutorial</a> from Jenny Bryan finally changed my mind. Turn the above into something more like:</p>
 <pre class="r"><code>require(tidyverse)</code></pre>
 <pre><code>## Loading required package: tidyverse</code></pre>
-<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.2.1 --</code></pre>
-<pre><code>## v ggplot2 3.2.1     v purrr   0.3.2
-## v tibble  2.1.3     v dplyr   0.8.3
-## v tidyr   1.0.0     v stringr 1.4.0
-## v readr   1.3.1     v forcats 0.4.0</code></pre>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.3.0 --</code></pre>
+<pre><code>## v ggplot2 3.3.2     v purrr   0.3.4
+## v tibble  3.0.1     v dplyr   0.8.5
+## v tidyr   1.0.3     v stringr 1.4.0
+## v readr   1.3.1     v forcats 0.5.0</code></pre>
+<pre><code>## Warning: package &#39;ggplot2&#39; was built under R version 4.0.2</code></pre>
 <pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
 ## x dplyr::filter() masks stats::filter()
 ## x dplyr::lag()    masks stats::lag()</code></pre>
@@ -332,56 +333,56 @@ for(i in 1:nrow(df)){
 df %&gt;% 
   mutate(cnew = map2_dbl(a, b, fn))</code></pre>
 <pre><code>##           a b        c     cnew
-## 1  44.16360 1 54.16360 54.16360
-## 2  25.25275 1 35.25275 35.25275
-## 3  41.63287 1 51.63287 51.63287
-## 4  32.20621 1 42.20621 42.20621
-## 5  41.79315 1 51.79315 51.79315
-## 6  19.72171 1 29.72171 29.72171
-## 7  32.73481 1 42.73481 42.73481
-## 8  36.44911 1 46.44911 46.44911
-## 9  27.74228 1 37.74228 37.74228
-## 10 31.57821 1 41.57821 41.57821
-## 11 35.44843 1 45.44843 45.44843
-## 12 15.71378 1 25.71378 25.71378
-## 13 29.22598 1 39.22598 39.22598
-## 14 22.70228 1 32.70228 32.70228
-## 15 15.76531 1 25.76531 25.76531
-## 16 23.77043 1 33.77043 33.77043
-## 17 48.30406 1 58.30406 58.30406
-## 18 39.18590 1 49.18590 49.18590
-## 19 48.67553 1 58.67553 58.67553
-## 20 26.75631 1 36.75631 36.75631
-## 21 17.30755 1 27.30755 27.30755
-## 22 45.32953 1 55.32953 55.32953
-## 23 23.77547 1 33.77547 33.77547
-## 24 46.77700 1 56.77700 56.77700
-## 25 21.79017 1 31.79017 31.79017
-## 26 45.55104 1 55.55104 55.55104
-## 27 49.79547 1 59.79547 59.79547
-## 28 47.26621 1 57.26621 57.26621
-## 29 43.33179 1 53.33179 53.33179
-## 30 14.23848 1 24.23848 24.23848
-## 31 27.17465 1 37.17465 37.17465
-## 32 35.59141 1 45.59141 45.59141
-## 33 16.46302 1 26.46302 26.46302
-## 34 17.35583 1 27.35583 27.35583
-## 35 37.40115 1 47.40115 47.40115
-## 36 42.65438 1 52.65438 52.65438
-## 37 28.61371 1 38.61371 38.61371
-## 38 40.75620 1 50.75620 50.75620
-## 39 16.36567 1 26.36567 26.36567
-## 40 37.29461 1 47.29461 47.29461
-## 41 48.17187 1 58.17187 58.17187
-## 42 20.89128 1 30.89128 30.89128
-## 43 26.52449 1 36.52449 36.52449
-## 44 36.60154 1 46.60154 46.60154
-## 45 30.23788 1 40.23788 40.23788
-## 46 15.30274 1 25.30274 25.30274
-## 47 35.90092 1 45.90092 45.90092
-## 48 12.91660 1 22.91660 22.91660
-## 49 28.28133 1 38.28133 38.28133
-## 50 40.45011 1 50.45011 50.45011</code></pre>
+## 1  27.78619 1 37.78619 37.78619
+## 2  18.87396 1 28.87396 28.87396
+## 3  32.31300 1 42.31300 42.31300
+## 4  12.12191 1 22.12191 22.12191
+## 5  29.06410 1 39.06410 39.06410
+## 6  36.16917 1 46.16917 46.16917
+## 7  44.51950 1 54.51950 54.51950
+## 8  25.87770 1 35.87770 35.87770
+## 9  10.30885 1 20.30885 20.30885
+## 10 47.77924 1 57.77924 57.77924
+## 11 31.92504 1 41.92504 41.92504
+## 12 34.84943 1 44.84943 44.84943
+## 13 31.18396 1 41.18396 41.18396
+## 14 12.03994 1 22.03994 22.03994
+## 15 21.44645 1 31.44645 31.44645
+## 16 37.79984 1 47.79984 47.79984
+## 17 16.85697 1 26.85697 26.85697
+## 18 29.56143 1 39.56143 39.56143
+## 19 32.02215 1 42.02215 42.02215
+## 20 30.98374 1 40.98374 40.98374
+## 21 26.13368 1 36.13368 36.13368
+## 22 49.27916 1 59.27916 59.27916
+## 23 29.02485 1 39.02485 39.02485
+## 24 24.46319 1 34.46319 34.46319
+## 25 47.54282 1 57.54282 57.54282
+## 26 12.55738 1 22.55738 22.55738
+## 27 45.32256 1 55.32256 55.32256
+## 28 15.72511 1 25.72511 25.72511
+## 29 15.71454 1 25.71454 25.71454
+## 30 16.19262 1 26.19262 26.19262
+## 31 15.02461 1 25.02461 25.02461
+## 32 10.09425 1 20.09425 20.09425
+## 33 23.12550 1 33.12550 33.12550
+## 34 38.32783 1 48.32783 48.32783
+## 35 40.42252 1 50.42252 50.42252
+## 36 22.21735 1 32.21735 32.21735
+## 37 47.91000 1 57.91000 57.91000
+## 38 36.14593 1 46.14593 46.14593
+## 39 29.31186 1 39.31186 39.31186
+## 40 40.46099 1 50.46099 50.46099
+## 41 48.91211 1 58.91211 58.91211
+## 42 34.92457 1 44.92457 44.92457
+## 43 22.74947 1 32.74947 32.74947
+## 44 45.70232 1 55.70232 55.70232
+## 45 25.93826 1 35.93826 35.93826
+## 46 34.14696 1 44.14696 44.14696
+## 47 42.21414 1 52.21414 52.21414
+## 48 32.02265 1 42.02265 42.02265
+## 49 14.22022 1 24.22022 24.22022
+## 50 12.40088 1 22.40088 22.40088</code></pre>
 <p>It didn’t really make a difference here, but this has substanstially sped up some of my simulations and also makes the code much more readable, in my opinion.</p>
 <p>Check out the webinar. Highly recommended!</p>
 <hr />
