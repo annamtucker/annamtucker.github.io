@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.16)  15 OCT 2020 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.16)  20 MAR 2020 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**tucker-cv.tex
-(./tucker-cv.tex
+**tucker-relevant-coursework.tex
+(./tucker-relevant-coursework.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-02-25>
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cl
@@ -181,6 +181,217 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen151
 \Gm@dimlist=\toks24
 )
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/bookta
+bs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count190
+\@cmidlb=\count191
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count192
+\@lastruleclass=\count193
+\@thisrulewidth=\dimen164
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable
+.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count194
+\LTcapwidth=\dimen165
+\LT@head=\box47
+\LT@firsthead=\box48
+\LT@foot=\box49
+\LT@lastfoot=\box50
+\LT@cols=\count195
+\LT@rows=\count196
+\c@LT@tables=\count197
+\c@LT@chunks=\count198
+\LT@p@ftn=\toks25
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen166
+\ar@mcellbox=\box51
+\extrarowheight=\dimen167
+\NC@list=\toks26
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box52
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multir
+ow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count199
+\multirow@dima=\skip59
+\bigstrutjot=\dimen168
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig
+.sty
+\wrapoverhang=\dimen169
+\WF@size=\dimen170
+\c@WF@wrappedlines=\count266
+\WF@box=\box53
+\WF@everypar=\toks27
+Package: wrapfig 2003/01/31  v 3.6
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count267
+\float@exts=\toks28
+\float@box=\box54
+\@float@everytoks=\toks29
+\@floatcapt=\box55
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colort
+bl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/color.
+sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pd
+ftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\everycr=\toks30
+\minrowclearance=\skip60
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdfls
+cape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape
+.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cs.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.s
+ty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/gr
+aphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+))
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwid
+th.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box56
+\sift@deathcycles=\count268
+\@vwid@loff=\dimen171
+\@vwid@roff=\dimen172
+)
+\c@taburow=\count269
+\tabu@nbcols=\count270
+\tabu@cnt=\count271
+\tabu@Xcol=\count272
+\tabu@alloc=\count273
+\tabu@nested=\count274
+\tabu@target=\dimen173
+\tabu@spreadtarget=\dimen174
+\tabu@naturalX=\dimen175
+\tabucolX=\dimen176
+\tabu@Xsum=\dimen177
+\extrarowdepth=\dimen178
+\abovetabulinesep=\dimen179
+\belowtabulinesep=\dimen180
+\tabustrutrule=\dimen181
+\tabu@thebody=\toks31
+\tabu@footnotes=\toks32
+\tabu@box=\box57
+\tabu@arstrutbox=\box58
+\tabu@hleads=\box59
+\tabu@vleads=\box60
+\tabu@cellskip=\skip61
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttable/
+threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box61
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttablex
+/threeparttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ
+.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trim
+spaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip62
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box62
+\UL@hyphenbox=\box63
+\UL@skip=\skip63
+\UL@hook=\toks33
+\UL@height=\dimen182
+\UL@pe=\count275
+\UL@pixel=\dimen183
+\ULC@box=\box64
+Package: ulem 2019/11/18
+\ULdepth=\dimen184
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/makecell/makece
+ll.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen185
+\c@nlinenum=\count276
+\TeXr@lab=\toks34
+)
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+ty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty
 .sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
@@ -213,20 +424,20 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
 ox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count190
+\etb@tempcnta=\count277
 ))
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/titles
 ec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box47
-\beforetitleunit=\skip52
-\aftertitleunit=\skip53
-\ttl@plus=\dimen152
-\ttl@minus=\dimen153
-\ttl@toksa=\toks25
-\titlewidth=\dimen154
-\titlewidthlast=\dimen155
-\titlewidthfirst=\dimen156
+\ttl@box=\box65
+\beforetitleunit=\skip64
+\aftertitleunit=\skip65
+\ttl@plus=\dimen186
+\ttl@minus=\dimen187
+\ttl@toksa=\toks35
+\titlewidth=\dimen188
+\titlewidthlast=\dimen189
+\titlewidthfirst=\dimen190
 )
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome/fon
 tawesome.sty
@@ -240,15 +451,15 @@ tawesomesymbols-pdftex.tex))
 dr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip54
-\f@nch@O@elh=\skip55
-\f@nch@O@erh=\skip56
-\f@nch@O@olh=\skip57
-\f@nch@O@orh=\skip58
-\f@nch@O@elf=\skip59
-\f@nch@O@erf=\skip60
-\f@nch@O@olf=\skip61
-\f@nch@O@orf=\skip62
+\f@nch@headwidth=\skip66
+\f@nch@O@elh=\skip67
+\f@nch@O@erh=\skip68
+\f@nch@O@olh=\skip69
+\f@nch@O@orh=\skip70
+\f@nch@O@elf=\skip71
+\f@nch@O@erf=\skip72
+\f@nch@O@olf=\skip73
+\f@nch@O@orf=\skip74
 )
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpa
 ge.sty
@@ -291,9 +502,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 .sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen157
-\Hy@linkcounter=\count191
-\Hy@pagecounter=\count192
+\@linkdim=\dimen191
+\Hy@linkcounter=\count278
+\Hy@pagecounter=\count279
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
 .def
@@ -309,8 +520,8 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 cmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count193
-\pdfmajorversion=\count194
+\Hy@SavedSpaceFactor=\count280
+\pdfmajorversion=\count281
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -318,13 +529,13 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count195
+\c@Hy@tempcnt=\count282
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen158
+\XeTeXLinkMargin=\dimen192
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset
 .sty
@@ -335,9 +546,9 @@ gintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count196
-\Field@Width=\dimen159
-\Fld@charsize=\dimen160
+\Fld@menulength=\count283
+\Field@Width=\dimen193
+\Fld@charsize=\dimen194
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -352,9 +563,9 @@ LaTeX Info: Redefining \pageref on input line 6504.
 gshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count197
-\c@Item=\count198
-\c@Hfootnote=\count199
+\Hy@abspage=\count284
+\c@Item=\count285
+\c@Hfootnote=\count286
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -366,8 +577,8 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 yend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count266
-\c@bookmark@seq@number=\count267
+\Fld@listcount=\count287
+\c@bookmark@seq@number=\count288
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/
 rerunfilecheck.sty
@@ -380,9 +591,9 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip63
+\Hy@SectionHShift=\skip75
 )
-Package hyperref Info: Option `unicode' set `true' on input line 94.
+Package hyperref Info: Option `unicode' set `true' on input line 108.
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.
 def
@@ -390,39 +601,39 @@ File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 94.
-Package hyperref Info: Option `breaklinks' set `true' on input line 94.
+Package hyperref Info: Option `colorlinks' set `true' on input line 108.
+Package hyperref Info: Option `breaklinks' set `true' on input line 108.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 94.
+(hyperref)                setting the option has no effect on input line 108.
 
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3bac
 kend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count268
-\l__pdf_internal_box=\box48
-) (./tucker-cv.aux)
-\openout1 = `tucker-cv.aux'.
+\l__kernel_color_stack_int=\count289
+\l__pdf_internal_box=\box66
+) (./tucker-relevant-coursework.aux)
+\openout1 = `tucker-relevant-coursework.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -457,30 +668,23 @@ LaTeX Font Info:    ... okay on input line 97.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/ep
+stopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/eps
+topdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 97.
-\AtBeginShipoutBox=\box49
-
-(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/color.
-sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
-
-(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
-lor.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-
-(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pd
-ftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-)
-(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvipsn
-am.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
-Package hyperref Info: Link coloring ON on input line 97.
+(lastpage)             ! on input line 111.
+\AtBeginShipoutBox=\box67
+Package hyperref Info: Link coloring ON on input line 111.
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namere
 f.sty
@@ -494,113 +698,127 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count269
+\c@section@level=\count290
 )
-LaTeX Info: Redefining \ref on input line 97.
-LaTeX Info: Redefining \pageref on input line 97.
-LaTeX Info: Redefining \nameref on input line 97.
-(./tucker-cv.out) (./tucker-cv.out)
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
+LaTeX Info: Redefining \nameref on input line 111.
+(./tucker-relevant-coursework.out) (./tucker-relevant-coursework.out)
 \@outlinefile=\write3
-\openout3 = `tucker-cv.out'.
+\openout3 = `tucker-relevant-coursework.out'.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 110.
-
-(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome/ufo
-ntawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-10.
-(c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-110.
+144.
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1pplx.
 fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-110.
+144.
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.
 fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-110.
+144.
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.
 fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-110.
+144.
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.
 fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-110.
+144.
 
 (c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.
 fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 110.
+(Font)              scaled to size 11.40997pt on input line 144.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 110.
+(Font)              scaled to size 8.33606pt on input line 144.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 110.
+(Font)              scaled to size 6.25204pt on input line 144.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 110.
+(Font)              scaled to size 11.40997pt on input line 144.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 110.
+(Font)              scaled to size 8.33606pt on input line 144.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 110.
+(Font)              scaled to size 6.25204pt on input line 144.
+
+Overfull \hbox (64.20058pt too wide) in paragraph at lines 171--182
+[][] 
+ []
+
+
+Overfull \hbox (4.97215pt too wide) in paragraph at lines 188--197
+[][] 
+ []
+
+
+Overfull \hbox (9.22073pt too wide) in paragraph at lines 204--229
+[][] 
+ []
+
 [1
 
 {c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pd
-ftex.map}] [2] [3] 
+ftex.map}]
+Overfull \hbox (86.52765pt too wide) in paragraph at lines 237--254
+[][] 
+ []
+
+
+Overfull \hbox (41.07425pt too wide) in paragraph at lines 260--287
+[][] 
+ []
+
+
+Overfull \hbox (137.81735pt too wide) in paragraph at lines 291--314
+[][] 
+ []
+
+
 AED: lastpage setting LastPage
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 391.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
-(./tucker-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
-Package rerunfilecheck Info: File `tucker-cv.out' has not changed.
-(rerunfilecheck)             Checksum: CBAE87233FE4A1151BDA46AB1346FA03;1948.
+[2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+(./tucker-relevant-coursework.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package rerunfilecheck Info: File `tucker-relevant-coursework.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: 284A2F5734E3F68DCDFB07739FE5B900;519.
  ) 
 Here is how much of TeX's memory you used:
- 12304 strings out of 482913
- 175746 string characters out of 5957399
- 424404 words of memory out of 5000000
- 27355 multiletter control sequences out of 15000+600000
- 568399 words of font info for 80 fonts, out of 8000000 for 9000
+ 14208 strings out of 482913
+ 202273 string characters out of 5957399
+ 469990 words of memory out of 5000000
+ 29210 multiletter control sequences out of 15000+600000
+ 565085 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 34i,12n,45p,1198b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,45p,1215b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r
-.enc} <c:/Users/amtucker/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
-t1095.600pk>{c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvi
-ps/fontawesome/fontawesometwo.enc}<c:/Users/amtucker/AppData/Roaming/TinyTeX/te
-xmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/amtucker/AppD
-ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb><c:/Users/amt
-ucker/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:
-/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplri
-j8a.pfb><c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/p
-alatino/uplb8a.pfb><c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/fonts/
-type1/urw/palatino/uplbi8a.pfb><c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf
--dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/amtucker/AppData/Roaming/Ti
-nyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tucker-cv.pdf (4 pages, 134519 bytes).
+.enc}<c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/f
+pl/fplbj8a.pfb><c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/fonts/type
+1/public/fpl/fplrc8a.pfb><c:/Users/amtucker/AppData/Roaming/TinyTeX/texmf-dist/
+fonts/type1/public/fpl/fplrij8a.pfb><c:/Users/amtucker/AppData/Roaming/TinyTeX/
+texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/Users/amtucker/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/amtucker/Ap
+pData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on tucker-relevant-coursework.pdf (3 pages, 94691 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 67 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 

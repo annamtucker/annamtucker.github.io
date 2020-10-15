@@ -11,10 +11,17 @@ jobtitle: "Postdoctoral Research Associate"
 address: "USGS Patuxent Wildlife Research Center"
 fontawesome: yes
 email: annamtucker@gmail.com
+<<<<<<< HEAD
 github: annamtucker
 #phone: "+1 555 5555"
 #twitter: annamtucker_
 #web: 'annamtucker.github.io'
+=======
+#github: annamtucker
+#phone: "+1 555 5555"
+#twitter: annamtucker_
+web: 'annamtucker.github.io'
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 updated: yes
 #keywords: quantitative ecology, population dynamics, migratory birds
 fontfamily: mathpazo
@@ -36,6 +43,7 @@ B.S. Biology - Loyola University Maryland - 2010
   
 # Work Experience      
   
+<<<<<<< HEAD
 **Postdoctoral Researcher**  
 **U.S. Geological Survey, Patuxent Wildlife Research Center**  
 GS-0401-12, Step 01  
@@ -48,11 +56,29 @@ Advised by Dr. Jim Lyons and Dr. Michael Runge
   
 *Duties:*  
 - develop and evaluate novel approaches for management decision making for dynamic systems, with an emphasis on the management of migratory birds under climate change which may be affected at multiple scales (temporal and spatial)    
+=======
+**Postdoctoral Research Associate**  
+**U.S. Geological Survey, Patuxent Wildlife Research Center**  
+GS-0401-12   
+Jan 2020 - present  
+40 hours/week  
+$88,335/year  
+
+Project title: Dynamic management strategies for migratory birds under uncertain but inevitable global change    
+Supervisors: Dr. James Lyons and Dr. Michael Runge  
+  
+*Duties:*  
+- develop and evaluate novel approaches for management decision making for dynamic, nonstationary systems, with an emphasis on the management of migratory birds under climate change  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 - work with USFWS partners to develop decision-making frameworks to address problems related to harvest, land acquisition, and incidental take  
 - synthesize current literature on management of non-stationary systems  
   
 *Accomplishments:*  
+<<<<<<< HEAD
 - wrote and submitted proposal to convene a Powell Center Working Group to address challenges associated with natural resource management under non-stationary   
+=======
+- wrote proposal to convene a Powell Center Working Group to address challenges associated with natural resource management under non-stationary   
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 - wrote invited proposal to the NE and SE Climate Adaptation Science Centers to develop new methods for adaptive management of waterfowl harvest in the face of climate change   
 - attended Upper Midwest Environmental Science Center Adaptive Management Review Workshop, which addressed double- and triple-loop learning in four case studies of adaptive management in Region 3 refuges   
   
@@ -64,14 +90,24 @@ Advised by Dr. Jim Lyons and Dr. Michael Runge
 - written communication via grant proposals and manuscripts  
   
   
+<<<<<<< HEAD
 **Postdoctoral Researcher**  
 **School of Forestry and Wildlife Sciences/ALCFWRU, Auburn University**  
 Apr 2019-Jan 2020  
+=======
+**Postdoctoral Research Associate**  
+**School of Forestry and Wildlife Sciences/ALCFWRU, Auburn University**  
+Apr 2019 - Jan 2020  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 40 hours/week  
 $48,000/year         
 
 Project title: Population analysis and projection modeling for USFWS Species Status Assessments  
+<<<<<<< HEAD
 Advised by Dr. Conor McGowan  
+=======
+Supervisor: Dr. Conor McGowan  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
    
 *Duties:*  
 - worked with USFWS partners to develop population projection models for Species Status Assessments (SSAs), the science document that supports decision-making under the Endangered Species Act   
@@ -89,22 +125,38 @@ Advised by Dr. Conor McGowan
 - population ecology, demographic estimation, population modeling  
 - statistical programming (R, BUGS/JAGS, Nimble)  
 - spatial analysis (qGIS, ArcMap, R)  
+<<<<<<< HEAD
+=======
+- development of lectures and activities (including Shiny apps) related to data analysis and projection modeling for population viability analyses  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 - use of Github for version control and collaboration  
 - effective written and oral communication with biologists and decision makers regarding the structure, outputs, and inference from population models  
    
    
 **Graduate Research Assistant**  
 **School of Forestry and Wildlife Sciences/ALCFWRU, Auburn University**    
+<<<<<<< HEAD
 Jan 2015-Apr 2019  
+=======
+Jan 2015 - Apr 2019  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 20 hours/week  
 $19,000/year  
 
 Dissertation title: Stopover ecology and population dynamics of migratory shorebirds  
+<<<<<<< HEAD
 Advised by Dr. Conor McGowan  
   
 *Duties:*  
 - analyzed mark-resight, capture, and count data from 20 years of shorebird monitoring in Delaware Bay to estimate demographic parameters and evaluate the effects of stopover site conditions on shorebird population dynamics   
 - worked closely with state biologists from Delaware Division of Fish and Wildlife to develop a research plan designed to address knowledge gaps, in support of shorebird conservation efforts in Delaware      
+=======
+Advisor: Dr. Conor McGowan  
+  
+*Duties:*  
+- analyzed mark-resight, capture, and count data from 20 years of shorebird monitoring in Delaware Bay to estimate demographic parameters and evaluate the effects of stopover site conditions on shorebird population dynamics   
+- worked closely with state biologists from Delaware Division of Fish and Wildlife to develop a research plan designed to address knowledge gaps in support of shorebird conservation efforts in Delaware      
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 - developed lesson plans and taught Wildlife Population Analysis lab (upper-level undergraduate course, 30 students) and Ornithology lab (upper-level undergraduate course, 50 students)   
 - assisted with field surveys for migratory shorebirds, including cannon net captures, banding, counting mixed flocks, and resighting individually-identifiable leg flags    
   
@@ -119,23 +171,40 @@ Advised by Dr. Conor McGowan
 - full annual cycle population analysis, estimation of demographic parameters     
 - statistical programming and hierarchical modeling (R, BUGS/JAGS, Nimble)  
 - designing simulation studies to evaluate new modeling methods  
+<<<<<<< HEAD
+=======
+- lesson planning and development for population modeling, including developing interactive Shiny apps for in-class exercises  
+- field surveys of migratory shorebirds, including flock counts, individual resighting, cannon netting, banding, and measuring several species    
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 - effective written and oral communication  
   
   
 **Graduate Teaching Assistant**  
 **Department of Biology, Virginia Commonwealth University**      
+<<<<<<< HEAD
 Aug 2012-May 2014  
+=======
+Aug 2012 - May 2014  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 20 hours/week  
 $13,000/year  
 
 Thesis title: Occurrence and consequences of conspecific brood parasitism in a cavity-nesting warbler  
+<<<<<<< HEAD
 Advised by Dr. Lesley Bulluck  
+=======
+Advisors: Dr. Lesley Bulluck and Dr. Rodney Dyer  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
   
 *Duties:*  
 - analyzed ~1500 blood samples to assign parentage of nestlings and determine effects of conspecific brood parasitism on host fitness   
 - mentored undergraduate researchers (4) in developing independent research projects, conducting field work, analyzing data, and writing manuscripts     
 - developed lesson plans and taught Ornithology lab (upper-level undergraduate course, 20 students)   
+<<<<<<< HEAD
 - conducted fieldwork to monitor breeding prothonotary warblers, including nest surveys, mist netting, banding, and behavioral observations   
+=======
+- conducted fieldwork to monitor breeding prothonotary warblers  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
   
 *Accomplishments:*  
 - authored two publications on the reproductive ecology of conspecific brood parasitism in prothonotary warblers    
@@ -143,6 +212,12 @@ Advised by Dr. Lesley Bulluck
 - awarded Outstanding Graduate Student in Ecology from the Department of Biology   
   
 *Related Skills:*  
+<<<<<<< HEAD
+=======
+- planning field data collection and organizing field crews  
+- ornithology fieldwork, including nest surveys; mist netting; banding, measuring, and taking blood samples from warblers; behavioral observations  
+- database development, including capacity for data entry from multiple users (Microsoft Access)  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 - laboratory techniques including DNA extraction, PCR, gel electrophoresis  
 - analysis of microsatellite data  
 - estimation of demographic parameters  
@@ -151,6 +226,11 @@ Advised by Dr. Lesley Bulluck
   
 # Publications   
   
+<<<<<<< HEAD
+=======
+Folt, B., J.M. Goessling, **A.M.Tucker**, C. Guyer, S. Hermann, E. Shelton-Nix, and C.P. McGowan. *In review - Journal of Fish and Wildlife Management.* Contrasting Patterns of Demography and Population Viability among Six Populations of Gopher Tortoises (*Gopherus polyphemus*) at the Species’ Range Edge. 
+  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 **Tucker, A.M.**, C.P. McGowan, E. Mulero, N.F. Angeli, J.P. Zegarra. *In review - Animal Conservation.*  Developing a demographic projection model to support conservation decision making for an endangered snake with limited monitoring data.  
   
 **Tucker, A.M.**, C.P. McGowan, J.E. Lyons, A.L. DeRose-Wilson, N.A. Clark. *In review - Ecological Applications.* Species-specific demographic and behavioral responses to environmental conditions during migratory stopover.
@@ -165,6 +245,7 @@ Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Ca
   
 **Tucker, A.M.**, R.J. Dyer, S.K. Huber, and L.P. Bulluck. 2016. Opportunistic conspecific brood parasitism in a box-nesting population of Prothonotary Warblers (*Protonotaria citrea*). The Auk: 133, 2, 298-307.
     
+<<<<<<< HEAD
   
 # Awards and Honors   
   
@@ -180,6 +261,14 @@ Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Ca
   
 # Research Grants and Fellowships   
 
+=======
+    
+# Research Grants and Fellowships   
+
+**2020** Research Grant, Northeast/Southeast Climate Adaptation Science Center (applied for) *$350,000*  
+**2020** Working Group Grant, Powell Center for Earth System Science Analysis and Synthesis (applied for) *$170,785*  
+**2019** Co-PI, Research Contract for Species Status Assessments, USFWS Region 2 (pending) *$50,000*  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 **2017** Francis M. Peacock Scholarship for Native Bird Habitat, Garden Club of America *$4000*  
 **2015** Graduate Thesis/Dissertation Fellowship, Auburn University Graduate School *$500*    
 **2015** Research Grant, Eastern Bird Banding Association Memorial Fund *$1000*    
@@ -188,6 +277,21 @@ Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Ca
 **2008** Hauber Summer Research Fellowship, Loyola University *$3000*   
   
   
+<<<<<<< HEAD
+=======
+# Awards and Honors   
+  
+**2019** Distinguished Dissertation Award, *Auburn Univeristy Graduate School*  
+**2019** Outstanding Doctoral Student, *Auburn University Graduate Student Council*  
+**2019** Drummond PhD Student Award, *AU School of Forestry and Wildlife Sciences*  
+**2018** Biometrics Working Group Travel Award, *The Wildlife Society*  
+**2018** AOS Council Student Presentation Award, *American Ornithological Society*  
+**2017** Best Student Poster, *EURING Analytical Meeting and Workshop*  
+**2017** Graduate Student Award, *Ducks Unlimited*     
+**2014** Outstanding Graduate Student in Ecology, *Virginia Commonwealth University*   
+  
+  
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 # Conference Presentations   
   
 ## **Invited**  
@@ -206,7 +310,11 @@ Weaver, R.J., E.A. Santos, **A.M. Tucker**, A.E. Wilson, and G.E. Hill. 2018. Ca
   
 **2017** Comparing annual variation in stopover mass gain between two long-distance migrants. *Oral presentation, Western Hemisphere Shorebird Group, Paracas, Peru* (presented by R.A. Robinson)
   
+<<<<<<< HEAD
 **2017**. Combining multistate models and network theory to evaluate movement patterns during migratory stopover. *Poster presentation, Euring Analytical Meeting, Barcelona, Spain* Winner--Best Student Poster Award
+=======
+**2017**. Combining multistate models and network theory to evaluate movement patterns during migratory stopover. *Poster presentation, EURING Analytical Meeting, Barcelona, Spain* Winner--Best Student Poster Award
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
   
 **2016** Assessing the influence of migratory connectivity and spring stopover site disturbance on population dynamics using a full annual cycle simulation model. *Oral presentation, North American Ornithological Conference VI, Washington DC*
   
@@ -221,7 +329,11 @@ Observer, Adaptive Management Review Workshop, Upper Midwest Environmental Scien
 Introduction to Bayesian Statistics with Nimble, Reno NV *2019*   
 Apprentice, National Conservation Training Center Structured Decision Making Workshop *2018*  
 Integrated Population Modeling Workshop, Patuxent Wildlife Research Center *2017*  
+<<<<<<< HEAD
 Data Integration Workshop, Euring Analytical Meeting, Barcelona *2017*    
+=======
+Data Integration Workshop, EURING Analytical Meeting, Barcelona *2017*    
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 Conservation Leaders for Tomorrow, Mansfield GA *2017*  
   
   
@@ -247,6 +359,10 @@ Intro. to Biological Sciences Lab, Virginia Commonwealth University (Fall 2012-F
   
   
 # Service and Outreach  
+<<<<<<< HEAD
+=======
+Peer Reviewer: *Ibis*, *Conservation Science and Practice*, *Landscape and Urban Planning*, *Urban Ecosystems*, *Evolutionary Ecology*    
+>>>>>>> a3ed3dae519931a07cb6a10e9b309931da41ccbd
 Founder and Coordinator, Wildlife Graduate Student & Postdoc Quant Club (2017-2018)  
 Graduate Student Representative, IT Specialist Hiring Committee (Jan 2018)  
 Ornithology Instructor, National Audubon Society, Hog Island Family Camp (2017-present)  

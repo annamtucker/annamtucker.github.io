@@ -7,8 +7,8 @@ navbar:
       href: index.html
     - text: "Research"
       href: projects.html
-    - text: "Publications"
-      href: pubs.html
+#    - text: "Publications"
+#      href: pubs.html
     - text: "Teaching"
       href: teaching.html
     - text: "CV"
